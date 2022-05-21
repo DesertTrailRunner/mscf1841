@@ -1,0 +1,104 @@
+/*
+  Utility Styles
+  @date 2021-07-12
+*/
+
+.clickable {
+  cursor: pointer;
+}
+.clickable:hover {
+  color: #ffe600;
+}
+
+/* special elements */
+.error-message {
+  color: red;
+  padding: 1em;
+}
+.warning-message {
+  color: #f76900;
+  padding: 1em;
+}
+.confidential {
+  color: #f76900;
+  font-size: 1.5em;
+  transform: rotate(-10deg);
+}
+.placeholder {
+  border: 3px solid #922b73;
+  padding: 20px;
+  color: #5a0a42;
+  font-style: italic;
+  font-weight: bold;
+  background-color: #f6f6fa;
+  object-fit: cover;
+  mask-image: linear-gradient(45deg, #000000 25%, rgba(90, 10, 66, 0.2) 25%),
+    linear-gradient(-45deg, #b14891 25%, rgba(90, 10, 66, 0.2) 25%),
+    linear-gradient(45deg, rgba(90, 10, 66, 0.4) 50%, #b14891 50%),
+    linear-gradient(-45deg, rgba(90, 10, 66, 0.4) 50%, #b14891 50%);
+  mask-size: 20px 20px;
+  mask-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+.placeholder:before {
+  content: "PLACEHOLDER  ";
+  position: relative;
+  color: #5a0a42;
+}
+.draft {
+  border: 1px solid #0a095a;
+  padding: 20px;
+  margin: 40px 20px 20px 20px;
+  color: #0a095a;
+  font-style: italic;
+}
+.draft:before {
+  content: "DRAFT, NOT FINAL CONTENT";
+  position: relative;
+  top: -50px;
+  color: #0a095a;
+}
+.sample {
+  border: 1px solid #13652a;
+  padding: 20px;
+  margin: 40px 20px 20px 20px;
+  color: #13652a;
+  font-style: italic;
+}
+.sample:before {
+  content: "SAMPLE ONLY";
+  position: relative;
+  top: -50px;
+  color: #13652a;
+}
+
+/* Tables */
+table.datatable {
+  width: 100%;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+table.datatable th {
+  padding: 3px;
+}
+table.datatable td {
+  padding: 3px;
+  border: 1px solid #c4c4cd;
+  vertical-align: top;
+}
+
+/* Images */
+img.thumbnail {
+  width: 3em;
+  overflow: hidden;
+}
+
+/* printing rules */
+.print-only {
+  display: none;
+}
+@media print {
+  .print-only {
+    display: inherit;
+  }
+}

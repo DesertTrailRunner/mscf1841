@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Gatehouse",
+        "lat": 41.4785,
+        "long": -81.7065,
+        "shape": "marker",
+        "icon": "monument",
+        "route": "gatehouse",
+        "details": ""
+    },
+    {
+        "title": "Repaired fence",
+        "lat": 41.4793,
+        "long": -81.7057,
+        "shape": "circle",
+        "color": "blue",
+        "radius": 10,
+        "fillColor": "#FCF",
+        "fillOpacity": 0.5,
+        "details": ""
+    },
+    {
+        "title": "Isabella Roy",
+        "lat": 41.4785,
+        "long": -81.7060,
+        "shape": "marker",
+        "icon": "headstone",
+        "route": "isabella",
+        "details": ""
+    },
+    {
+        "title": "August & Wilhelmina Ruthenberg",
+        "lat": 41.4780,
+        "long": -81.7062,
+        "shape": "marker",
+        "icon": "headstone",
+        "route": "ruthenberg",
+        "details": ""
+    },
+    {
+        "title": "Japanese tree lilac",
+        "lat": 41.4776,
+        "long": -81.7065,
+        "shape": "marker",
+        "icon": "tree",
+        "route": "japanese-tree-lilac",
+        "details": ""
+    },
+    {
+        "title": "Black Gum",
+        "lat": 41.4772,
+        "long": -81.7050,
+        "shape": "marker",
+        "icon": "tree",
+        "route": "black-gum",
+        "details": ""
+    }
+]
