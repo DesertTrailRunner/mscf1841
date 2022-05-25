@@ -10,39 +10,34 @@ export default Vue.extend({
 <template>
   <div>
     <section class="hero"></section>
-    <section>
+    <div>
       <h1>Monroe Street Cemetery</h1>
-      <div class="columns2">
-        <div>
-          <section>
-            <p>
-              Monroe Street Cemetery Foundation is a 501(c)(3) nonprofit,
-              all-volunteer organization dedicated to the preservation and
-              enhancement of the oldest public cemetery on Cleveland's west
-              side.
-            </p>
-          </section>
-          <section>
-            <h2>Latest news</h2>
-            <NewsItems url="data/news.json" />
-          </section>
-        </div>
-        <div>
+      <v-row>
+        <v-col cols="12" md="6">
+          <p>
+            Monroe Street Cemetery Foundation is a 501(c)(3) nonprofit,
+            all-volunteer organization dedicated to the preservation and
+            enhancement of the oldest public cemetery on Cleveland's west side.
+          </p>
+          <h2>Latest news</h2>
+          <NewsItems url="data/news.json" />
+        </v-col>
+        <v-col cols="12" md="6">
           <SocialMediaIcons />
-        </div>
-        <div>
+        </v-col>
+        <v-col cols="12" md="6">
           <img
             class="feature-image"
             src="~/assets/images/Alex_Heeter_P8090310.jpg"
           />
-        </div>
-        <div>
+        </v-col>
+        <v-col cols="12" md="6">
           <img
             class="feature-image"
             src="~/assets/images/Alex_Heeter_P8090383.jpg"
           />
-        </div>
-      </div>
-    </section>
+        </v-col>
+      </v-row>
+    </div>
   </div>
 </template>
