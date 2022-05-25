@@ -1,7 +1,7 @@
 <script lang="ts">
 /**
  * Info page
- * @date 2022-05-21
+ * @date 2022-05-25
  */
 import Vue from "vue";
 
@@ -10,20 +10,23 @@ import Vue from "vue";
 
 export default Vue.extend({
   // components: { SpinnerNotice, RouterNav },
+  data() {
+    return {
+      isNavDrawerVisible: true,
+      items: ["one", "two"],
+    };
+  },
 });
 </script>
 <template>
   <v-app>
-    <v-navigation-drawer app>
-      <!-- -->
-    </v-navigation-drawer>
-
-    <v-app-bar app
+    <v-app-bar
+      app
       absolute
       color="#fcb69f"
       dark
       shrink-on-scroll
-      src="https://picsum.photos/1920/1080?random"
+      :src="require(`~/assets/images/gatehouse-and-gate.jpg`)"
       scroll-target="#main-content"
     >
       <template v-slot:img="{ props }">
@@ -33,9 +36,21 @@ export default Vue.extend({
         ></v-img>
       </template>
 
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click.stop="isNavDrawerVisible = !isNavDrawerVisible"></v-app-bar-nav-icon>
 
       <v-app-bar-title>Monroe Street Cemetery Foundation</v-app-bar-title>
+
+      <v-spacer></v-spacer>
+
+      <template v-slot:extension>
+        <v-list nav>
+          <v-list-item v-for="(item, i) in $router.routes" :key="i" link>
+            <v-list-item-content>
+              <v-list-item-title>{{ item }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
+      </template>
     </v-app-bar>
 
     <v-main id="main-content">

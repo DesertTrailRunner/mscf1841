@@ -20,10 +20,10 @@ export default Vue.extend({
             enhancement of the oldest public cemetery on Cleveland's west side.
           </p>
           <h2>Latest news</h2>
-          <NewsItems url="data/news.json" />
+          <!-- <NewsItems url="data/news.json" /> -->
         </v-col>
         <v-col cols="12" md="6">
-          <SocialMediaIcons />
+          <!-- <SocialMediaIcons /> -->
         </v-col>
         <v-col cols="12" md="6">
           <img
