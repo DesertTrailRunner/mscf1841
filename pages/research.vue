@@ -38,9 +38,9 @@ export default Vue.extend({
       </p>
     </div>
     <div class="columns3">
-      <img src="../static/images/research/headstone1-768x1024.jpg" />
-      <img src="../static/images/research/headstone3-768x479.jpg" />
-      <img src="../static/images/research/headstone2-626x1024.jpg" />
+      <img src="~/assets/images/research/headstone1-768x1024.jpg" />
+      <img src="~/assets/images/research/headstone3-768x479.jpg" />
+      <img src="~/assets/images/research/headstone2-626x1024.jpg" />
     </div>
   </div>
 </template>

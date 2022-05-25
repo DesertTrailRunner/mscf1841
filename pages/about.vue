@@ -87,7 +87,7 @@ export default Vue.extend({
       <div>
         <img
           class="feature-image"
-          src="../static/images/MSCF-Regrow-illustration-full-res.jpg"
+          src="~/assets/images/MSCF-Regrow-illustration-full-res.jpg"
         />
       </div>
     </div>

@@ -20,7 +20,7 @@ export default Vue.extend({
         <a
           href="../static/images/monroe-street-cemetery-map-scaled.jpg"
           target="map"
-          ><img src="../static/images/monroe-street-cemetery-map-scaled.jpg"
+          ><img src="~/assets/images/monroe-street-cemetery-map-scaled.jpg"
         /></a>
       </section>
     </div>

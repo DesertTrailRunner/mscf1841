@@ -45,7 +45,7 @@ export default Vue.extend({
       <div>
         <img
           class="sidebar-image"
-          src="../static/images/Tree-headstone-20210818.jpg"
+          src="~/assets/images/Tree-headstone-20210818.jpg"
         />
       </div>
     </div>

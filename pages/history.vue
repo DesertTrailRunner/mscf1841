@@ -75,7 +75,7 @@ export default Vue.extend({
         was liquidated.
       </p>
       <p>
-        <img src="../static/images/Maria-Louisa-Frese.jpg" />
+        <img src="~/assets/images/Maria-Louisa-Frese.jpg" />
       </p>
     </section>
   </div></div>
