@@ -21,17 +21,29 @@ export default Vue.extend({
   },
   methods: {
     buildNavigation() {
-        console.log(this.$router.options.routes);
-        
       if (this.$router && this.$router.options && this.$router.options.routes) {
         this.$router.options.routes.forEach((route: any) => {
           if (route.name && route.path && route.path.lastIndexOf("/") == 0)
             this.navigationItems.push(route);
         });
       }
+
+      this.navigationItems.sort((a,b)=>{
+        if (a.name=="index") return -1;
+        else if (b.name=="index") return 1;
+        else return a.name.localeCompare(b.name);
+      });
     },
     createLabel(routeName:string):string {
-        return routeName.toUpperCase();
+        if (routeName=="index") return "Home";
+        else {
+          let words = routeName.split('-'),
+            label = "";
+          for (let w=0; w<words.length; w++) {
+            words[w] = words[w].charAt(0).toUpperCase()+words[w].substring(1);
+          }
+          return words.join(' ');
+        }
     }
   },
 });
