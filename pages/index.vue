@@ -24,11 +24,11 @@ export default Vue.extend({
           </section>
           <section>
             <h2>Latest news</h2>
-            <NewsItems url="data/news.json" />
+            <!-- <NewsItems url="data/news.json" /> -->
           </section>
         </div>
         <div>
-          <SocialMediaIcons />
+          <!-- <SocialMediaIcons /> -->
         </div>
         <div>
           <img

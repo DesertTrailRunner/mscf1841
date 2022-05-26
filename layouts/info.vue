@@ -1,21 +1,23 @@
 <script lang="ts">
 /**
  * Info page
- * @date 2022-05-21
+ * @date 2022-05-26
  */
 import Vue from 'vue'
+
+import SiteNav from "~/components/SiteNav.vue";
 
 // import SpinnerNotice from "../lib/ui/components/SpinnerNotice.vue";
 // import RouterNav from "../lib/ui/components/RouterNav.vue";
 
 export default Vue.extend({
-  // components: { SpinnerNotice, RouterNav },
+  components: { SiteNav },
 });
 </script>
 <template>
   <div>
     <header>
-      <!-- <RouterNav></RouterNav> -->
+      <SiteNav/>
     </header>
 
     <main>
