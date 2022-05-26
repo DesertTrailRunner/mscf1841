@@ -33,7 +33,7 @@ export default Vue.extend({
       </section>
 
       <section>
-        <SocialMediaIcons />
+        <!-- <SocialMediaIcons /> -->
       </section>
       <div>
         <img

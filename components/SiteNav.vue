@@ -8,13 +8,20 @@ import Vue, { PropOptions } from "vue";
 
 interface ICompData {
   navigationItems: any[];
+  isMobileListVisible: boolean;
 }
 
 export default Vue.extend({
   data: () => {
     return {
       navigationItems: [],
+      isMobileListVisible: false,
     } as ICompData;
+  },
+  watch: {
+    "$route"() {
+      this.toggleNav();
+    }
   },
   mounted() {
     this.buildNavigation();
@@ -28,33 +35,56 @@ export default Vue.extend({
         });
       }
 
-      this.navigationItems.sort((a,b)=>{
-        if (a.name=="index") return -1;
-        else if (b.name=="index") return 1;
+      this.navigationItems.sort((a, b) => {
+        if (a.name == "index") return -1;
+        else if (b.name == "index") return 1;
         else return a.name.localeCompare(b.name);
       });
     },
-    createLabel(routeName:string):string {
-        if (routeName=="index") return "Home";
-        else {
-          let words = routeName.split('-'),
-            label = "";
-          for (let w=0; w<words.length; w++) {
-            words[w] = words[w].charAt(0).toUpperCase()+words[w].substring(1);
-          }
-          return words.join(' ');
+    createLabel(routeName: string): string {
+      if (routeName == "index") return "Home";
+      else {
+        let words = routeName.split("-"),
+          label = "";
+        for (let w = 0; w < words.length; w++) {
+          words[w] = words[w].charAt(0).toUpperCase() + words[w].substring(1);
         }
-    }
+        return words.join(" ");
+      }
+    },
+    toggleNav() {
+      this.isMobileListVisible = !this.isMobileListVisible;
+    },
   },
 });
 </script>
 
 <template>
-  <nav>
-    <NuxtLink v-for="(route, r) in navigationItems" :key="r" :to="route.path">{{
-      createLabel(route.name)
-    }}</NuxtLink>
-  </nav>
+  <div>
+    <nav class="larger-nav">
+      <NuxtLink
+        v-for="(route, r) in navigationItems"
+        :key="r"
+        :to="route.path"
+        >{{ createLabel(route.name) }}</NuxtLink
+      >
+    </nav>
+    <i @click="toggleNav()"
+      ><svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"
+        /></svg
+    ></i>
+    <nav v-show="isMobileListVisible" class="list-nav">
+      <NuxtLink
+        v-for="(route, r) in navigationItems"
+        :key="r"
+        :to="route.path"
+        >{{ createLabel(route.name) }}</NuxtLink
+      >
+    </nav>
+  </div>
 </template>
 
 <style scoped>
@@ -63,5 +93,19 @@ nav {
   align-items: center;
   height: 100%;
   flex-wrap: wrap;
+}
+nav.larger-nav { display: flex; }
+i {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  nav.larger-nav { display: none; }
+  i {
+    display: block;
+    cursor: pointer;
+  }
+  nav.list-nav a {
+    width: 100%;
+  }
 }
 </style>
