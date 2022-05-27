@@ -30,7 +30,7 @@ export default Vue.extend({
     buildNavigation() {
       if (this.$router && this.$router.options && this.$router.options.routes) {
         this.$router.options.routes.forEach((route: any) => {
-          if (route.name && route.path && route.path.lastIndexOf("/") == 0)
+          if (route.name && route.path && route.path.lastIndexOf("/") == 0 && route.name!="content")
             this.navigationItems.push(route);
         });
       }

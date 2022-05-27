@@ -1,0 +1,43 @@
+<script lang="ts">
+import Vue from "vue";
+
+const REDIRECTS: object = {
+  "32": "/cemetery-index",
+  "29": "/cemetery-map",
+  "65": "/bios",
+  "148": "/history",
+  "135": "/history",
+  "84": "/donate",
+  "268": "/membership",
+  "97": "/gift-shop",
+  "151": "/research",
+  "87": "/about",
+};
+
+export default Vue.extend({
+  name: "ContentPage",
+  layout: "default",
+  mounted() {
+    try {
+      let matches = location.search.match(/\d+/);
+      if (matches && matches.length) {
+        let id = matches[0];
+        if (id) {
+          //@ts-ignore
+          let path = REDIRECTS[id];
+          if (path) this.$router.push({ path: `${path}` });
+          else this.$router.push({ path: `/` });
+        } else this.$router.push({ path: `/` });
+      } else this.$router.push({ path: `/` });
+    } catch (e) {
+      this.$router.push({ path: `/` });
+    }
+  },
+});
+</script>
+
+<template>
+  <div>redirect</div>
+</template>
+
+<style scoped></style>
