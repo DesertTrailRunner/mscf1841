@@ -1,7 +1,7 @@
 <script lang="ts">
 /**
  * SiteNav
- * @date 2022-05-26
+ * @date 2022-05-27
  */
 import Vue, { PropOptions } from "vue";
 //import { RouteRecordRaw } from "vue-router";
@@ -20,7 +20,7 @@ export default Vue.extend({
   },
   watch: {
     "$route"() {
-      this.toggleNav();
+      if (this.isMobileListVisible) this.toggleNav();
     }
   },
   mounted() {
