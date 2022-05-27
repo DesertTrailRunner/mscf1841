@@ -3,7 +3,7 @@ import Vue from "vue";
 
 export default Vue.extend({
   name: "ResearchPage",
-  layout: "info",
+  layout: "default",
 });
 </script>
 

@@ -3,7 +3,7 @@ import Vue from "vue";
 
 export default Vue.extend({
   name: "MapPage",
-  layout: "info",
+  layout: "default",
 });
 </script>
 
