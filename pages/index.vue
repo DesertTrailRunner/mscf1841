@@ -1,9 +1,12 @@
 <script lang="ts">
 import Vue from "vue";
 
+import SocialMediaIcons from "~/components/SocialMediaIcons.vue";
+
 export default Vue.extend({
   name: "IndexPage",
   layout: "default",
+  components: {SocialMediaIcons}
 });
 </script>
 
@@ -28,7 +31,7 @@ export default Vue.extend({
           </section>
         </div>
         <div>
-          <!-- <SocialMediaIcons /> -->
+          <SocialMediaIcons />
         </div>
         <div>
           <img

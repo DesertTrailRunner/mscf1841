@@ -2,11 +2,12 @@
 import Vue from "vue";
 
 import ImageFigure from "~/components/ImageFigure.vue";
+import SocialMediaIcons from "~/components/SocialMediaIcons.vue";
 
 export default Vue.extend({
   name: "MembershipPage",
   layout: "default",
-  components: { ImageFigure },
+  components: { ImageFigure, SocialMediaIcons },
 });
 </script>
 
@@ -35,15 +36,13 @@ export default Vue.extend({
         </ul>
         <p><a href="https://www.facebook.com/MonroeStreetCemetery/jobs/">Opportunities</a> may be posted to our Facebook page as Jobs.</p>
         <p>We meet at Forest City Brewery on the second Wednesday of each month.</p>
+        <SocialMediaIcons />
       </section>
 
       <section>
-        <!-- <SocialMediaIcons /> -->
-      </section>
-      <div>
         <ImageFigure src="images/membership/MSCF-members-2-med-res-768x595.jpg" caption="MSCF committee" />
         <ImageFigure src="images/membership/MSCF-members-1-med-res-768x567.jpg" caption="MSCF committee" />
-      </div>
+      </section>
     </div>
   </div>
 </template>
