@@ -18,9 +18,9 @@ export default Vue.extend({
           click the image below:
         </p>
         <a
-          href="../static/images/monroe-street-cemetery-map-scaled.jpg"
+          href="~/assets/images/map/monroe-street-cemetery-map-scaled.jpg"
           target="map"
-          ><img src="~/assets/images/monroe-street-cemetery-map-scaled.jpg"
+          ><img src="~/assets/images/map/monroe-street-cemetery-map-scaled.jpg"
         /></a>
       </section>
     </div>

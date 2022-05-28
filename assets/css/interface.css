@@ -1,6 +1,6 @@
 /**
     Interface
-    @date 2022-05-26
+    @date 2022-05-28
 **/
 body,
 #app {
@@ -58,7 +58,7 @@ main .hero::before {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('~/assets/images/gatehouse-and-gate.jpg');
+  background-image: url('~/assets/images/home/gatehouse-and-gate.jpg');
   background-position: center top;
   background-size: cover;
   width: 100%;

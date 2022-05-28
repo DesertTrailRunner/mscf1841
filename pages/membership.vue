@@ -38,7 +38,7 @@ export default Vue.extend({
       <div>
         <img
           class="feature-image"
-          src="~/assets/images/MSCF_committee-high-res.jpg"
+          src="~/assets/images/membership/MSCF_committee-high-res.jpg"
         />
       </div>
     </div>

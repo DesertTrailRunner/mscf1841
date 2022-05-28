@@ -33,13 +33,13 @@ export default Vue.extend({
         <div>
           <img
             class="feature-image"
-            src="~/assets/images/Alex_Heeter_P8090310.jpg"
+            src="~/assets/images/home/Alex_Heeter_P8090310.jpg"
           />
         </div>
         <div>
           <img
             class="feature-image"
-            src="~/assets/images/Alex_Heeter_P8090383.jpg"
+            src="~/assets/images/home/Alex_Heeter_P8090383.jpg"
           />
         </div>
       </div>
