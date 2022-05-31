@@ -42,7 +42,7 @@ export default Vue.extend({
         </p>
         <img src="~/assets/images/gift-shop/MSCF-T-Shirt-front.png" />
         <img src="~/assets/images/gift-shop/MSCF-T-Shirt-back.png" />
-        
+
         <h2>Get out your reading glasses!</h2>
         <p>
           For you history buffs or if you just want to know more about Monroe
@@ -57,7 +57,6 @@ export default Vue.extend({
           for $25.00. Please add $5.00 to your order for S&H.
         </p>
         <img src="~/assets/images/gift-shop/book.png" />
-        
       </section>
       <section>
         <h2>Dress up that blank spot on your wall</h2>
@@ -69,30 +68,38 @@ export default Vue.extend({
         <ImageFigure
           src="images/gift-shop/GAR-Monument.png"
           caption="The G.A.R. Monument erected in 1872 and surrounded by the graves of 22 Civil War soldiers."
+          size="large"
         />
         <ImageFigure
           src="images/gift-shop/Late-one-summer-afternoon.png"
           caption="Late one summer afternoon."
+          size="large"
         />
         <ImageFigure
           src="images/gift-shop/Iron-gate-at-entrance.png"
           caption="The iron gate at the cemetery entrance archway."
+          size="large"
         />
-        
       </section>
-    </div>
     <section>
-        <h2>Order online:</h2>
-        <div ref="formEmbed"></div>
-        <h3>Or:</h3>
-        <PrimaryButton label="Download order form" url="/downloads/MSCF-gift-shop-order-form.doc"/>
-        <p>
-          Write your selections on the order form, make your check out to Monroe
-          Street Cemetery Foundation and mail it to the address: Monroe Street
-          Cemetery Foundation P.O. BOX 93671, CLEVELAND, OHIO 44101 Please allow
-          4-6 weeks for delivery. 
-        </p>
-      </section>
+      <h2>Order online:</h2>
+      <div ref="formEmbed"></div>
+    </section>
+    <section>
+      <h3>Or:</h3>
+      <PrimaryButton
+        label="Download order form"
+        url="/downloads/MSCF-gift-shop-order-form.doc"
+      />
+      <p>
+        Write your selections on the order form, make your check out to Monroe
+        Street Cemetery Foundation and mail it to the address: Monroe Street
+        Cemetery Foundation P.O. BOX 93671, CLEVELAND, OHIO 44101 
+      </p>
+      <p>Please allow
+        4-6 weeks for delivery.</p>
+    </section>
+    </div>
   </div>
 </template>
 
