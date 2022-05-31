@@ -2,11 +2,21 @@
 import Vue from "vue";
 
 import ImageFigure from "~/components/ImageFigure.vue";
+import PrimaryButton from "~/components/PrimaryButton.vue";
+
+const FORM_URL =
+  "https://www.iatspayments.com/AURA/AURA.aspx?PID=PA2FA86495504CFB8F";
 
 export default Vue.extend({
   name: "GiftShopPage",
   layout: "info",
-  components: { ImageFigure },
+  components: { ImageFigure, PrimaryButton },
+  mounted() {
+    let s: HTMLScriptElement = document.createElement("script");
+    s.setAttribute("type", "text/javascript");
+    s.setAttribute("src", FORM_URL);
+    (this.$refs.formEmbed as HTMLDivElement).appendChild(s);
+  },
 });
 </script>
 
@@ -26,15 +36,13 @@ export default Vue.extend({
           one. (But be sure and tell them how they can get one – we need the
           money!!!)
         </p>
-        <img src="~/assets/images/gift-shop/MSCF-T-Shirt-front.png" />
-        <img src="~/assets/images/gift-shop/MSCF-T-Shirt-back.png" />
         <p>
           Tees are available in M, L, XL and 2XL. Cost is $20.00 + $2.50 S&H
           each.
         </p>
-      </section>
-
-      <section>
+        <img src="~/assets/images/gift-shop/MSCF-T-Shirt-front.png" />
+        <img src="~/assets/images/gift-shop/MSCF-T-Shirt-back.png" />
+        
         <h2>Get out your reading glasses!</h2>
         <p>
           For you history buffs or if you just want to know more about Monroe
@@ -43,15 +51,21 @@ export default Vue.extend({
           stuff about Ohio City, the cemetery, Cleveland and life in the
           Victorian Era.
         </p>
-        <img src="~/assets/images/gift-shop/book.png" />
         <p>
           The biographies contained on this website under history are stories
           taken directly from the book. A black and white edition is available
           for $25.00. Please add $5.00 to your order for S&H.
         </p>
+        <img src="~/assets/images/gift-shop/book.png" />
+        
       </section>
       <section>
         <h2>Dress up that blank spot on your wall</h2>
+        <p>
+          Color photographs of Monroe Street Cemetery are available. These are
+          5″ x 7″ photos, matted and framed. Select from those shown below. Cost
+          is $20.00 + $2.50 S&H each.
+        </p>
         <ImageFigure
           src="images/gift-shop/GAR-Monument.png"
           caption="The G.A.R. Monument erected in 1872 and surrounded by the graves of 22 Civil War soldiers."
@@ -64,24 +78,21 @@ export default Vue.extend({
           src="images/gift-shop/Iron-gate-at-entrance.png"
           caption="The iron gate at the cemetery entrance archway."
         />
-        <p>
-          Color photographs of Monroe Street Cemetery are available. These are
-          5″ x 7″ photos, matted and framed. Select from those shown below. Cost
-          is $20.00 + $2.50 S&H each.
-        </p>
+        
       </section>
-      <section>
-        <h2>Order</h2>
-        <button>Download and print order form</button>
+    </div>
+    <section>
+        <h2>Order online:</h2>
+        <div ref="formEmbed"></div>
+        <h3>Or:</h3>
+        <PrimaryButton label="Download order form" url="/downloads/MSCF-gift-shop-order-form.doc"/>
         <p>
           Write your selections on the order form, make your check out to Monroe
           Street Cemetery Foundation and mail it to the address: Monroe Street
           Cemetery Foundation P.O. BOX 93671, CLEVELAND, OHIO 44101 Please allow
-          4-6 weeks for delivery. Sorry but we cannot take credit cards at this
-          time.
+          4-6 weeks for delivery. 
         </p>
       </section>
-    </div>
   </div>
 </template>
 

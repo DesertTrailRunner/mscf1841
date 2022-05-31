@@ -1,6 +1,6 @@
 /**
     Interface
-    @date 2022-05-28
+    @date 2022-05-31
 **/
 body,
 #app {
@@ -113,6 +113,14 @@ footer a {
 .feature-image {
   width: 100%;
   filter: drop-shadow(5px 5px 15px rgb(0, 0, 0, .5));
+}
+
+figure {
+  margin: 0 0 1em 0;
+}
+figure figcaption {
+  font-style: italic;
+  color: #555;
 }
 
 @media screen and (max-width:768px) {
