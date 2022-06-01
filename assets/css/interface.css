@@ -1,6 +1,6 @@
 /**
     Interface
-    @date 2022-05-31
+    @date 2022-06-01
 **/
 body,
 #app {
@@ -116,7 +116,10 @@ footer a {
 }
 
 figure {
-  margin: 0 0 1em 0;
+  margin: 0 0 2em 0;
+}
+figure img {
+  border: 1px solid #aaa;
 }
 figure figcaption {
   font-style: italic;
@@ -132,6 +135,18 @@ figure figcaption {
   .columns3 {
     display: block;
   }
+}
+
+/* blogs */
+.biography {
+
+}
+article {
+  column-count: 2;
+  column-gap: 3em;
+}
+.navigation-buttons {
+  margin-top: 1em;
 }
 
 /* button */

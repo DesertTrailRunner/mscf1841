@@ -2,13 +2,14 @@
 title: Christopher Frese
 thumbnail: test
 ---
-# Christopher Frese 1834-1904; Maria Louisa Frese 1828-1904
+## Christopher Frese 1834-1904
+## Maria Louisa Frese 1828-1904
 
 The weather report for the 28th of June 1904 called for partly cloudy conditions and “light and fresh, east to southeast winds.” It promised to be a little warmer than the previous three days when temperatures had hovered in the mid-60s. During the brief service at the late home of the deceased, No. 189 Burton Street, a throng of people, unable to gain admission to the little house which was already crowded, lingered about the property and streets until its conclusion, waiting for the later service at St. John’s Evangelical Protestant Church on Harbor Street. When the two hearses reached the church, even standing room could not be secured and many were unable even to enter the church.
 
 The two caskets were borne simultaneously down opposite aisles of the church and placed side by side before the pulpit, The service was simple, consisting of prayer, scripture reading, and special singing by the choir. Rev. C. W. Weiss officiated, and made brief mention of the aged couple’s tragic end. 
 
-<image-figure src="images/bios/Frese-headstone.jpg" caption="Frese headstone" size="medium"></image-figure>
+<image-figure src="images/bios/frese/Frese-headstone.jpg" caption="Frese headstone" size="medium"></image-figure>
 
 From the church, the procession proceeded to the Monroe Street Cemetery for the burial service. The procession was unusually long, over forty carriages being in line. The bodies were buried side by side. 
 
@@ -16,9 +17,13 @@ Christopher Frese – or Christian as he was called in newspaper articles or Chr
 
 Frese was a stalwart Republican and took much interest in political affairs. He represented the Tenth ward in the Cleveland City Council under Mayor Robert McKisson (1863-1915) who served as Mayor from 1895-1899. During the time that McKisson and Frese served their city, construction was begun on a new city water and sewer system, the Cuyahoga River was widened and straightened to facilitate steamer traffic, and five new bridges were built across the river. Frese served on a council committee on cemeteries and was partly responsible for the opening of West Park cemetery in 1900. During one session of the Grand Jury Frese served as one of the jurors.
 
-Frese and his wife, Maria Louisa, were loved and respected residents of their community. They had brought two boys into this world, August and Frank. August seems to have taken after his father; a hard-working businessman and devoted father. Frank, on the other hand led a less than admirable life. Since retiring from active business Christopher Frese had spent much of his time driving about the city and country. Maria Louisa generally accompanied him and their rig was a familiar one on Burton and the neighboring streets. “I tell you there is nothing so good for one’s health as plenty of rides in the open air,” Christopher had said frequently to his friends. In early June of 1904 when Christopher was seventy years old he suffered a paralytic stroke which affected the right side of his body leaving his right arm almost powerless. However, the damage done was not sufficient to keep Christopher on his back for very long. He lingered in the house no longer than absolutely necessary and the first day that he was able to move about found him in his buggy. His friends advised that he be careful, owing to his weakened and crippled condition, but he took their warnings with a complacent smile. “This old horse and I have traveled over this town for a good many years,” he said, “and I guess if anything was going to happen to us, it would have happened before this.” He was wrong.
+Frese and his wife, Maria Louisa, were loved and respected residents of their community. They had brought two boys into this world, August and Frank. August seems to have taken after his father; a hard-working businessman and devoted father. Frank, on the other hand led a less than admirable life.
 
-<image-figure src="images/bios/Frese-carriage.jpg" caption="A phaeton was an open, four-wheeled, doorless carriage, popular in the 18th and 19th centuries. It contained one or two seats, usually had a folding, or falling, top, and was owner-driven." size="medium"></image-figure>
+### Tragedy
+
+Since retiring from active business Christopher Frese had spent much of his time driving about the city and country. Maria Louisa generally accompanied him and their rig was a familiar one on Burton and the neighboring streets. “I tell you there is nothing so good for one’s health as plenty of rides in the open air,” Christopher had said frequently to his friends. In early June of 1904 when Christopher was seventy years old he suffered a paralytic stroke which affected the right side of his body leaving his right arm almost powerless. However, the damage done was not sufficient to keep Christopher on his back for very long. He lingered in the house no longer than absolutely necessary and the first day that he was able to move about found him in his buggy. His friends advised that he be careful, owing to his weakened and crippled condition, but he took their warnings with a complacent smile. “This old horse and I have traveled over this town for a good many years,” he said, “and I guess if anything was going to happen to us, it would have happened before this.” He was wrong.
+
+<image-figure src="images/bios/frese/Frese-carriage.jpg" caption="A phaeton was an open, four-wheeled, doorless carriage, popular in the 18th and 19th centuries. It contained one or two seats, usually had a folding, or falling, top, and was owner-driven." size="medium"></image-figure>
 
 On June 26, 1904, Christopher and Maria Louisa headed out for yet another buggy ride into the nearby hamlet of Lakewood. The following day the Plain Dealer described what happened: 
 
@@ -34,11 +39,13 @@ Mrs. Frese was thrown into the road about forty feet from where the phaeton was 
 
 The motorman succeeded in stopping his car about 150 feet down the tracks and with many of the passengers, hurried back. Mrs. Frese, unconscious but still breathing, lay upon the road. She was carried to the side of the boulevard and Mastick’s ambulance was called. Mrs. Frese was hurried to the hospital, while the body of her husband was taken to the undertaking rooms. Before the hospital was reached the injured woman had expired. Her remains were also taken to Mastick’s undertaking rooms.
 
-<image-figure src="images/bios/Frese-electric-interurban-car.jpg" caption="An electric interurban car circa 1908." size="medium"></image-figure>
+<image-figure src="images/bios/frese/Frese-electric-interurban-car.jpg" caption="An electric interurban car circa 1908." size="medium"></image-figure>
 
 Aside from a ring upon the finger of Mrs. Frese, which bore the initials, C.F. to L.F, there was nothing about the body to lead to their identification, but through the initials upon the ring a clew to their identity was later gained. Telephone inquiries revealed the fact that the initials of Mr. and Mrs. Frese were similar to those upon the ring and that they had gone driving. A son was notified and early in the evening he recognized his parents as they lay side by side in the undertaking establishment.
 
 The horse, which had been driven by the couple, was entirely uninjured. The harness had broken when the vehicle was hit and the horse released. It cantered down the boulevard, but was stopped and brought back. The buggy was entirely demolished. The wheels and body were splintered into small pieces and scattered about the boulevard.” 
+
+### Interurban Cars
 
 Prior to the accident there had been practically no complaints about the fast speed of the interurban cars, but on the day following the accident many complaints against the interurban companies were made to the board of public safety and Cleveland Police Chief Fred Kohler. Most of the complaints were against the Lake Shore Electric. County Coroner Burke directed that an inquest be held at which particular attention was to be taken to investigate the condition of the brakes with which the car that caused the deaths was equipped. Burke said, “I will probably have an expert make a thorough examination and test of the car which figured in the accident. If his report shows that the car was poorly equipped with brakes and that the brakes are not of a recognized modern standard, I will attempt to hold the company liable and will also make recommendations not only to that company, but to all other companies in this county to examine their brakes and install, where necessary, modern and efficient brakes. If they fail to do so and other accidents of like nature happen I can then easily hold them responsible. This has been the first accident of its kind to come to my notice, but modern science has perfected brakes which, if properly applied and used by intelligent men, will almost to a certainty protect people against accidents of this nature.” 
 
@@ -54,10 +61,12 @@ The coroner’s inquest was held on July 6, 1904, and a witness testified that t
 
 Two other witnesses, William Burns and Henry Muschwitz, both of whom were passengers on the car at the time the accident occurred, testified that they believed the car was traveling at about 30 miles per hour.  The testimony obtained at the inquest led the Frese family to file suit against the railroad company for wrongful death. The suit was settled by October of 1904 and resulted in the railroad company paying $2,000 to the Frese family which appears to have been divided between August and Frank Frese.
 
+### Estate
+
 Christopher Frese had been a successful businessman and had accumulated a substantial estate. When his will was probated the value of the estate was approximately $25,000. This would be the equivalent of around $620,000 in 2009. His will divided his estate among four grandchildren and his son August Frese. A sad but telling notation in the will reads: “My said son Frank J. Frese not to receive anything of my estate.” Apparently Frank was a disappointment, and probably an embarrassment, to his father as one can gather from these following three Plain Dealer articles.
 
-<image-figure src="images/bios/Christopher-Frese.jpg" caption="Christopher Frese" size="medium"></image-figure>
-<image-figure src="images/bios/Maria-Louisa-Frese.jpg" caption="Maria Louisa Frese" size="medium"></image-figure>
+<image-figure src="images/bios/frese/Christopher-Frese.jpg" caption="Christopher Frese" size="medium"></image-figure>
+<image-figure src="images/bios/frese/Maria-Louisa-Frese.jpg" caption="Maria Louisa Frese" size="medium"></image-figure>
 
 September 29, 1883: “Suit was commenced in common pleas court yesterday for a divorce by Minnie Frese against her husband, Frank J. Frese. They were married in May, 1890, and have one child. She accuses him of drunkenness, abuse and failure to provide. In addition to divorce she asks for alimony and custody of child.” (Frank and Minnie’s son Edward was included in Christopher Frese’s last will and testament.)
 
