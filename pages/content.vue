@@ -1,4 +1,7 @@
 <script lang="ts">
+/**
+ * Redirects from WordPress site
+ */
 import Vue from "vue";
 
 const REDIRECTS: object = {

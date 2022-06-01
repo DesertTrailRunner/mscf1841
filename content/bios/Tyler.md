@@ -1,0 +1,9 @@
+---
+title: Benjamin F. Tyler
+thumbnail: test
+---
+# Benjamin Tyler, 1803 – 1865; Sarah Tyler, 1809 – 1880
+
+Benjamin F. Tyler was born in Jefferson County, New York, in 1803. He came to Cleveland in 1832 as the principal representative of an investment group from Buffalo, which included his father-in-law, New York state judge Philander Bennett. The out-of-state group had entered into an agreement with two Cleveland merchants, Charles M. Giddings and Norman C. Baldwin, to purchase and redevelop Lorenzo Carter’s 80-acre farm on the west bank of the Cuyahoga River in what was then Brooklyn Township. At the time, the Ohio and Erie Canal was nearing completion and people everywhere were flush with land speculation fever.
+
+The investors, who became known as the Buffalo Land Company, surveyed the land they had purchased and began draining the marsh lands that lay near the Old River Bed and the shores of Lake Erie. The group developed plans for a ship channel (which was eventually built) that was intended to divert lake and river traffic away from Cleveland to their lands. They laid out the streets for commercial and residential buildings. And, along with Josiah Barber and other large land owners to the south, they organized Ohio City (technically, “the City of Ohio”), achieving city status in 1836 several days ahead of Cleveland. Tyler’s partner, Norman Baldwin, became a mayor of Ohio City, while another local partner, Charles Winslow, served as President of Ohio City Council. (Winslow was also father-in-law to C.L. Russell who later famously led the Ohio City forces in the 1836 Battle of the Bridge against Cleveland.)
