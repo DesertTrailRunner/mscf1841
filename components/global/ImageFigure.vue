@@ -1,7 +1,7 @@
 <script lang="ts">
 /**
  * ImageFigure
- * @date 2022-05-31
+ * @date 2022-06-01
  */
 import Vue, { PropOptions } from "vue";
 
