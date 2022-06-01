@@ -1,7 +1,7 @@
 <script lang="ts">
 import Vue from "vue";
 
-import ImageFigure from "~/components/ImageFigure.vue";
+import ImageFigure from "~/components/global/ImageFigure.vue";
 import PrimaryButton from "~/components/PrimaryButton.vue";
 
 const FORM_URL =

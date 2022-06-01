@@ -15,6 +15,11 @@ const REDIRECTS: object = {
   "97": "/gift-shop",
   "151": "/research",
   "87": "/about",
+  "216": "/bios/Frese",
+  "207": "/bios/Tyler",
+  "140": "/bios/Smith",
+  "75": "/bios/Ruthenberg",
+  "62": "/bios/Roy",
 };
 
 export default Vue.extend({
