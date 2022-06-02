@@ -23,7 +23,7 @@ export default Vue.extend({
 
 <template>
   <div class="news-items">
-    <h2>Latest news</h2>
+    <h2>News and Upcoming Events</h2>
     <div class="news-item" v-for="(newsItem, n) in news" :key="n">
       <div>
         <h3>{{ newsItem.name }}</h3>
@@ -49,5 +49,6 @@ export default Vue.extend({
 }
 .news-item h3 {
   margin: 0;
+  font-weight: bold;
 }
 </style>
