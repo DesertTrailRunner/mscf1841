@@ -2,11 +2,12 @@
 import Vue from "vue";
 
 import SocialMediaIcons from "~/components/SocialMediaIcons.vue";
+import NewsItems from "~/components/NewsItems.vue";
 
 export default Vue.extend({
   name: "IndexPage",
   layout: "default",
-  components: {SocialMediaIcons}
+  components: { SocialMediaIcons, NewsItems },
 });
 </script>
 
@@ -27,7 +28,7 @@ export default Vue.extend({
           </section>
           <section>
             <h2>Latest news</h2>
-            <!-- <NewsItems url="data/news.json" /> -->
+            <NewsItems url="/data/news.json" />
           </section>
         </div>
         <div>
