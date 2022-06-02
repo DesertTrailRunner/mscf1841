@@ -69,6 +69,9 @@ main .hero::before {
   main .hero {
     height: 300px;
   }
+  main h1 {
+    font-size: 2em;
+  }
 }
 
 footer {
@@ -167,18 +170,24 @@ figure figcaption {
   font-style: italic;
 }
 article {
-  column-count: 2;
+  column-count: 3;
   column-gap: 3em;
 }
 .navigation-buttons {
   margin-top: 1em;
+}
+@media screen and (max-width:1900px) {
+  article {
+    column-count: 2;
+    column-gap: 3em;
+  }
 }
 @media screen and (max-width:768px) {
   article {
     column-count: 1;
     column-gap: 3em;
   }
-  }
+}
 
 /* button */
 /* From cssbuttons.io */

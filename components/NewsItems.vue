@@ -51,4 +51,9 @@ export default Vue.extend({
   margin: 0;
   font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+  .news-item {
+    display: block;
+  }
+}
 </style>
