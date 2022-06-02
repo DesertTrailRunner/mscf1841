@@ -10,6 +10,16 @@ const FORM_URL =
 export default Vue.extend({
   name: "GiftShopPage",
   layout: "info",
+  head: {
+    title: 'Items to purchase to support the Monroe Street Cemetery Foundation',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      }
+    ]
+  },
   components: { ImageFigure, PrimaryButton },
   mounted() {
     let s: HTMLScriptElement = document.createElement("script");
@@ -24,7 +34,7 @@ export default Vue.extend({
   <div>
     <h1>Gift Shop</h1>
     <p>
-      Browse our gifts and memorabilia for the Monroe Street Cemetery All
+      Browse our gifts and memorabilia for the Monroe Street Cemetery. All
       purchases go toward the Monroe Street Cemetery Foundation.
     </p>
     <div class="columns2">

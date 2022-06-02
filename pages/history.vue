@@ -3,7 +3,17 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'HistoryPage',
-  layout: 'info'
+  layout: 'info',
+  head: {
+    title: 'History of the Monroe Street Cemetery',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      }
+    ]
+  },
 });
 </script>
 

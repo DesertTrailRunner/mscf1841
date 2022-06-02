@@ -4,6 +4,16 @@ import Vue from "vue";
 export default Vue.extend({
   name: "BiographiesPage",
   layout: "default",
+  head: {
+    title: 'Biographies those interned at Monroe Street Cemetery',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      }
+    ]
+  },
   async asyncData({ $content, params }) {
     const bios = await $content("bios")
       .only(["title", "slug", "img", "path"])

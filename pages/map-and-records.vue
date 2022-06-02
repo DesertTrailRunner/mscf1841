@@ -4,6 +4,16 @@ import Vue from "vue";
 export default Vue.extend({
   name: "MapPage",
   layout: "default",
+  head: {
+    title: 'Monroe Street Cemetery Map and Index of Records',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      }
+    ]
+  },
 });
 </script>
 

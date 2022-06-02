@@ -7,6 +7,16 @@ const FORM_URL =
 export default Vue.extend({
   name: 'DonationsPage',
   layout: 'info',
+  head: {
+    title: 'Donate to the Monroe Street Cemetery Foundation',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      }
+    ]
+  },
   mounted() {
     let s: HTMLScriptElement = document.createElement("script");
     s.setAttribute("type", "text/javascript");

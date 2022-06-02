@@ -4,6 +4,16 @@ import Vue from "vue";
 export default Vue.extend({
   name: "AboutPage",
   layout: "default",
+  head: {
+    title: 'About the Monroe Street Cemetery Foundation',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Mission Statement'
+      }
+    ]
+  }
 });
 </script>
 

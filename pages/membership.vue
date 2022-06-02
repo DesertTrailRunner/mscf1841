@@ -7,6 +7,16 @@ import SocialMediaIcons from "~/components/SocialMediaIcons.vue";
 export default Vue.extend({
   name: "MembershipPage",
   layout: "default",
+  head: {
+    title: 'Membership and Volunteering for the Monroe Street Cemetery Foundation',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      }
+    ]
+  },
   components: { ImageFigure, SocialMediaIcons },
 });
 </script>

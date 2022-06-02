@@ -7,6 +7,16 @@ import NewsItems from "~/components/NewsItems.vue";
 export default Vue.extend({
   name: "IndexPage",
   layout: "default",
+  head: {
+    title: 'Monroe Street Cemetery Foundation',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      }
+    ]
+  },
   components: { SocialMediaIcons, NewsItems },
 });
 </script>

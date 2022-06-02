@@ -4,6 +4,16 @@ import Vue from "vue";
 export default Vue.extend({
   name: "ResearchPage",
   layout: "default",
+  head: {
+    title: 'Headstone Research/Photos related to the Monroe Street Cemetery',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      }
+    ]
+  },
 });
 </script>
 
