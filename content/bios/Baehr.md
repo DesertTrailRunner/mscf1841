@@ -4,6 +4,9 @@ title: Jacob and Magdalena Baehr
 ## Jacob Baehr 1824 - 1873
 ## Magdalena Baehr 1834 - 1909
 
+
+### Brewing with Integrity
+
 Jacob Baehr’s brewery was a typical establishment of its day. Although brewery work was no easy affair under any circumstances, Baehr must have run an exceptionally tight ship. No employee at the brewery was permitted to engage in “lewd talk” while on duty, and Baehr employed no man who was not a proven, regular church-goer. Perhaps even more revealing was Baehr’s strict policy that no beer carrying the Baehr name would be sold to anyone who was known to use alcohol in any but a moderate manner. In a time when beer was primarily a working-class indulgence (and, indeed, a time when the working class was not known for its moderation), Baehr’s righteous business philosophies were not standard practice. The old brewer’s strict Mennonite upbringing may have outweighed his entrepreneurial drive.
 
 <image-figure src="images/bios/baehr/baehr_clip_image001.jpg" caption="The Baehr Brewery Building circa 1900. The first floor at W. 25th Street was a saloon and the Baehr’s lived above it." size="large"></image-figure>

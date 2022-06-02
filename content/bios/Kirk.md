@@ -4,6 +4,8 @@ title: William and Margaret Kirk
 ## William Kirk 1851 - 1922
 ## Margaret Kirk 1852 - 1915
 
+### Hey Leader, Strike up the Band
+
 William Kirk was born September 27, 1851, in Edinburgh, Scotland. His mother, Jane, was a staymaker; his father, John, a soldier and later a tailor. William became a bandsman in the British Army, specifically the 93rd Sutherland Highlanders, served in India, and later was stationed at Aberdeen and Edinburgh Castle. He married Margaret Ann Beatten, a dressmaker, at St. Andrew’s Chapel, S. B. Canongate, Edinburgh, on his 21st birthday in 1872. Margaret was born in August of 1852, the daughter of John Beatten, farm laborer, and Jane Stuart. William left the Army and came to Cleveland with Margaret in 1873 or 1874. 
 
 <image-figure src="images/bios/kirk/kirk.png" caption="William Kirk" size="medium"></image-figure>

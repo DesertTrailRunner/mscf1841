@@ -3,4 +3,4 @@ title: NAME
 ---
 ## NAME
 
-<image-figure src="images/bios/NAME/.jpg" caption="" size="medium"></image-figure>
+<image-figure src="images/bios/NAME/" caption="" size="medium"></image-figure>

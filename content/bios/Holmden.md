@@ -4,6 +4,9 @@ title: Thomas and Sarah Holmden
 ## Thomas Holmden 1818 - 1886
 ## Sarah Holmden 1818 - 1870
 
+
+### From Rags to Riches
+
 Thomas Holmden’s father, Walter, was born in 1788 in England and was an ordained Baptist minister. His mother, Sarah, was born in 1788 and married Walter in 1814. The Holmdens had five children, Thomas, Sarah, Elizabeth, Walter and John. The emigrated to the US in 1824 and by 1837 had settled on a 650 acre tract of land in Cornplanter Township, Venango County, Pennsylvania. The land straddled two creeks, Big Pithole Creek and Little Pithole Creek. The land was so poor that the company who sold it to Walter gave him an extra 100 acres just to make the deal happen.  Walter died in 1849 and the brothers split the land between them. The soil was so poor the Holmdens lived in poverty depending more on their rifles and products of the forest than they did their farmland. In 1849 John Holmden died.
 
 It was 1859 that oil was discovered about six miles north of the Holmden property. In 1864 Thomas and his brother Walter leased a portion of their land to James Faulkner of Kings County, New York,  who gave them each $1.00 and promised that if oil was found the Holmdens would receive one-fourth of the oil produced. Faulkner and his partners formed the United States Petroleum Company and in June 1864 they began drilling on the Holmden property. On January 7, 1865 at six hundred feet down the well came in, flowing at 650 barrels per day. On January 20 Thomas sold his 159 acre farm for $100,000 which today would be about $1,420,000.

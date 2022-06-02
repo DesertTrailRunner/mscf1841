@@ -4,7 +4,8 @@ title: William Bainbridge Castle and Mary Derby
 ## William Bainbridge Castle 1814 - 1872
 ## Mary Derby DOD 1837
 
-### The following historical biography can be found in The Encyclopedia of Cleveland History
+### The Last and First Mayor
+#### The following historical biography can be found in The Encyclopedia of Cleveland History
 
 “Castle, William Bainbridge (November 30, 1814 – February 28, 1872) a businessman and mayor, was born in Essex, Vermont, moved to Toronto in 1815 and settled in Cleveland in 1827 (one source indicates 1832). Later that year, Castle, his father, and Charles Giddings opened Cleveland’s first lumberyard. Upon his father’s death (either 1829 or 1832), Castle returned to Ontario, moving to Ohio City in 1839 and in 1840 forming the hardware partnership of Castle & Field. Castle joined the Cuyahoga Steam Furnace Company as an accountant in 1843, became manager in 1859, and was with the company until his death. 
 

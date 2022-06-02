@@ -4,7 +4,9 @@ title: John and Gracia Beverlin
 ## John Beverlin 1813 - 1891
 ## Gracia Beverlin 1816 - 1893
 
-### From the Cleveland Leader, January 4, 1893
+### Former Ohio City Mayor and a Buckeye of the Staunchest Kind
+
+#### From the Cleveland Leader, January 4, 1893
 
 Mrs. Gracia Beverlin, an old resident of Cleveland, very well known on the West Side, died at Oakland, Cal., on January 3. The funeral occurred in this city on Thursday. Mrs. Beverlin was seventy-seven years old. Her husband, John Beverlin, who died three years ago, was a leading businessman on the West Side when it was Ohio City. He was the kind of man of whom it was said, "his word is as good as his bond." For sixty-two years Mrs. Beverlin lived in Ohio City and Cleveland, fifty-two years of that time on the Beverlin property at the corner of State and Clinton streets. For fifty years she was a member of St. John's Episcopal Church. Last fall she went to California to visit her sister. A short time ago she went to a hospital in Oakland and had an operation performed on one of her eyes by an eminent oculist. She died there of heart failure, supposed to have been produced by the shock. Only one child survives her, Clarence Beverlin of Huron, Ohio."
 

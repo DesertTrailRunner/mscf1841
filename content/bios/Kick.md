@@ -3,6 +3,8 @@ title: John Michael Kick
 ---
 ## John Michael Kick 1840 - 1875
 
+### A good citizen, a brave soldier, and a faithful officer
+
 The morning of May 9, 1875, was not unlike most Sunday mornings for L.A. Benton who owned a jewelry store at 230 Superior Street. Mr. Benton arrived at his store around 9:00 AM to wind the watches he had for sale since damage is caused to them by allowing them to run down. He entered his store and proceeded to the rear where he unlocked his safe. No sooner had he opened the safe than a man wearing a black mask showed himself and demanded that Benton should surrender and step aside. Benton, determined to defend his property, grabbed a small hatchet that happened to be near him and swung it at the robber. The end result of this fracas was that Benton was severely beaten by the robber and another assailant and $6,000 - $7,000 worth of gold watches, diamond rings, and other jewelry were taken. Benton lived through the beating but it took a long time for him to recover.
 
 That weekend and the next couple of days also saw robberies take place at other locations – an office, a shoe store, a cigar store, the home of August Sihefft, the home of John Martin, and the home of Seth and Cordelia Sheldon. The Sheldon’s lived on the southwest corner of Franklin Street and Duane Street (West 32nd Street today). The Cleveland Leader edition of May 12 said the Sheldon home “was entered by burglars, who carried off a lady’s gold watch and bracelet, worth $100. The thieves effected an entrance by breaking the blinds to the windows over the front porch, they having first ascended to the top of this.”
