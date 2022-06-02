@@ -27,7 +27,6 @@ export default Vue.extend({
             </p>
           </section>
           <section>
-            <h2>Latest news</h2>
             <NewsItems url="/data/news.json" />
           </section>
         </div>
