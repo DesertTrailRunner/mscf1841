@@ -1,7 +1,7 @@
 <script>
 /**
  * Biographies
- * 2022-06-01
+ * 2022-06-02
  */
 import PrevNext from "~/components/PrevNext";
 

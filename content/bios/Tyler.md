@@ -1,6 +1,5 @@
 ---
 title: Benjamin F. Tyler
-thumbnail: test
 ---
 ## Benjamin Tyler, 1803 – 1865
 ## Sarah Tyler, 1809 – 1880

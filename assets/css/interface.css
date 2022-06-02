@@ -141,8 +141,8 @@ figure figcaption {
 }
 
 /* biographies */
-.biography {
-
+.biography blockquote {
+  font-style: italic;
 }
 article {
   column-count: 2;

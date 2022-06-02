@@ -1,4 +1,8 @@
 <script lang="ts">
+/**
+ * Biographies
+ * @date 2022-06-02
+ */
 import Vue from "vue";
 
 export default Vue.extend({
@@ -19,8 +23,6 @@ export default Vue.extend({
       .only(["title", "slug", "img", "path"])
       .sortBy("title", "asc")
       .fetch();
-
-    console.log(bios);
 
     return {
       bios,
