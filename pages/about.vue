@@ -44,6 +44,8 @@ export default Vue.extend({
           assist the City of Cleveland in obtaining funding for improvements to
           structures and features of the Cemetery.
         </p>
+
+        <ImageFigure src="images/about/cmte-at-forest-city-brewery.jpg" caption="Foundation Committee Monthly Meeting at Forest City Brewery"/>
       </section>
 
       <section>
@@ -95,10 +97,7 @@ export default Vue.extend({
         </p>
       </section>
       <div>
-        <img
-          class="feature-image"
-          src="~/assets/images/about/MSCF-Regrow-illustration-full-res.jpg"
-        />
+        <ImageFigure src="images/about/MSCF-Regrow-illustration-full-res.jpg" caption="Gatehouse Illustration by Jill Collins"/>
       </div>
     </div>
   </div>
