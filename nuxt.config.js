@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'mscf-nuxt',
+    title: 'Monroe Street Cemetery Foundation',
     htmlAttrs: {
       lang: 'en'
     },

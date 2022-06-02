@@ -1,7 +1,7 @@
 <script lang="ts">
 /**
  * SiteNav
- * @date 2022-05-27
+ * @date 2022-06-02
  */
 import Vue, { PropOptions } from "vue";
 //import { RouteRecordRaw } from "vue-router";
@@ -40,6 +40,7 @@ export default Vue.extend({
         else if (b.name == "index") return 1;
         else return a.name.localeCompare(b.name);
       });
+
     },
     createLabel(routeName: string): string {
       if (routeName == "index") return "Home";
@@ -48,7 +49,9 @@ export default Vue.extend({
           label = "";
         for (let w = 0; w < words.length; w++) {
           words[w] = words[w].charAt(0).toUpperCase() + words[w].substring(1);
+          if (words[w]=="And") words[w]="&";
         }
+        
         return words.join(" ");
       }
     },
