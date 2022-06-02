@@ -1,7 +1,7 @@
 <script lang="ts">
 /**
  * ImageFigure
- * @date 2022-06-01
+ * @date 2022-06-02
  */
 import Vue, { PropOptions } from "vue";
 
@@ -32,6 +32,7 @@ img.small {
 img.medium {
   max-height: 300px;
   width: auto;
+  max-width: 100%;
 }
 img.large {
   max-height: 600px;

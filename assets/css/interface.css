@@ -1,6 +1,6 @@
 /**
     Interface
-    @date 2022-06-01
+    @date 2022-06-02
 **/
 body,
 #app {
@@ -102,6 +102,18 @@ footer a {
   width: 100%;
 }
 
+@media screen and (max-width:768px) {
+  main {
+    margin-top: 3em;
+  }
+
+  .columns2,
+  .columns3 {
+    display: block;
+  }
+}
+
+/* special images */
 .sidebar-image {
   width: 300px !important;
   height: auto;
@@ -115,8 +127,10 @@ footer a {
   filter: drop-shadow(5px 5px 15px rgb(0, 0, 0, .5));
 }
 
+/* figures */
 figure {
   margin: 0 0 2em 0;
+  break-inside: avoid;
 }
 figure img {
   border: 1px solid #aaa;
@@ -126,18 +140,7 @@ figure figcaption {
   color: #555;
 }
 
-@media screen and (max-width:768px) {
-  main {
-    margin-top: 3em;
-  }
-
-  .columns2,
-  .columns3 {
-    display: block;
-  }
-}
-
-/* blogs */
+/* biographies */
 .biography {
 
 }
@@ -148,6 +151,12 @@ article {
 .navigation-buttons {
   margin-top: 1em;
 }
+@media screen and (max-width:768px) {
+  article {
+    column-count: 1;
+    column-gap: 3em;
+  }
+  }
 
 /* button */
 /* From cssbuttons.io */
