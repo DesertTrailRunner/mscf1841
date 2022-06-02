@@ -37,5 +37,6 @@ img.medium {
 img.large {
   max-height: 600px;
   width: auto;
+  max-width: 100%;
 }
 </style>

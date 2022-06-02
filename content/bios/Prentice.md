@@ -1,5 +1,6 @@
 ---
 title: Walter M. and Sarah Prentice
+thumbnailUrl: prentice/prentice_clip_image002.jpg
 ---
 ## Walter M. Prentice 1820 - 1864
 ## Sarah Prentice DOD 1876

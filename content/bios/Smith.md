@@ -1,8 +1,9 @@
 ---
 title: Anson and Amy Smith
+thumbnailUrl: smith/Anson-and-Amy-Smith-tombstone.jpg
 ---
-## Anson: 1795-1891
-## Amy: 1797-1877
+## Anson Smith 1795-1891
+## Amy Smith 1797-1877
 
 Anson Smith was born in New London, Connecticut, and as a young man he started a very successful business as a woolen merchant. The great financial period of the 1830s found Anson’s business failing due to reversals he had suffered. He relocated to Ohio City in 1837 along with his wife and six children. There he quickly started a successful business shipping produce on the Great Lakes and the Ohio and Erie canals. Later he became a telegraph agent also.
 

@@ -1,5 +1,6 @@
 ---
 title: John Michael Kick
+thumbnailUrl: kick/kick.png
 ---
 ## John Michael Kick 1840 - 1875
 

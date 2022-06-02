@@ -9,18 +9,18 @@ export default Vue.extend({
   name: "BiographiesPage",
   layout: "default",
   head: {
-    title: 'Biographies those interned at Monroe Street Cemetery',
+    title: "Biographies those interned at Monroe Street Cemetery",
     meta: [
       {
-        hid: 'description',
-        name: 'description',
-        content: ''
-      }
-    ]
+        hid: "description",
+        name: "description",
+        content: "",
+      },
+    ],
   },
   async asyncData({ $content, params }) {
     const bios = await $content("bios")
-      .only(["title", "slug", "img", "path"])
+      .only(["title", "slug", "thumbnailUrl", "path"])
       .sortBy("title", "asc")
       .fetch();
 
@@ -35,17 +35,19 @@ export default Vue.extend({
   <div>
     <h1>Biographies</h1>
 
-    <div class="columns2">
-      <section>
-        <div v-for="(bio, b) of bios" :key="b">
-          <NuxtLink :to="{ path: bio.path }">
-            <img :src="bio.img" />
-            <h2>{{ bio.title }}</h2>
-          </NuxtLink>
-        </div>
-      </section>
-
-      <section></section>
+    <div class="biographies">
+      <NuxtLink
+        class="biography-thumbnail"
+        v-for="(bio, b) of bios"
+        :key="b"
+        :to="{ path: bio.path }"
+      >
+        <img
+          v-if="bio.thumbnailUrl"
+          :src="require(`~/assets/images/bios/${bio.thumbnailUrl}`)"
+        />
+        <span>{{ bio.title }}</span>
+      </NuxtLink>
     </div>
   </div>
 </template>

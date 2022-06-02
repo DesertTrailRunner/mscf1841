@@ -1,5 +1,6 @@
 ---
 title: Christopher Frese
+thumbnailUrl: frese/Frese-carriage.jpg
 ---
 ## Christopher Frese 1834-1904
 ## Maria Louisa Frese 1828-1904

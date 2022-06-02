@@ -141,6 +141,28 @@ figure figcaption {
 }
 
 /* biographies */
+.biographies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  grid-gap: 2em;
+}
+.biography-thumbnail {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.biography-thumbnail:hover {
+  background-color: #ccc;
+}
+.biography-thumbnail img {
+  width: 100%;
+}
+.biography p, .biography blockquote {
+  break-inside: avoid;
+}
 .biography blockquote {
   font-style: italic;
 }

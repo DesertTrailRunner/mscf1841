@@ -1,5 +1,6 @@
 ---
 title: Elias Sims
+thumbnailUrl: sims/sims_clip_image002.jpg
 ---
 ## Elias Sims 1813 - 1885
 

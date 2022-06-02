@@ -1,5 +1,6 @@
 ---
 title: Jacob and Magdalena Baehr
+thumbnailUrl: baehr/baehr_clip_image001.jpg
 ---
 ## Jacob Baehr 1824 - 1873
 ## Magdalena Baehr 1834 - 1909

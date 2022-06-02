@@ -1,5 +1,6 @@
 ---
 title: Needham Maynard and Naomi Standart
+thumbnailUrl: standart/standart1.png
 ---
 ## Needham Maynard Standart 1797 - December 4, 1874
 ## Naomi Standart 1798 - April 12, 1860

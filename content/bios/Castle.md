@@ -1,5 +1,6 @@
 ---
 title: William Bainbridge Castle and Mary Derby
+thumbnailUrl: castle/castle1thumb.png
 ---
 ## William Bainbridge Castle 1814 - 1872
 ## Mary Derby DOD 1837

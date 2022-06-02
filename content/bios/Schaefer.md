@@ -1,5 +1,6 @@
 ---
 title: Gustav and Maria Schaefer
+thumbnailUrl: schaefer/schaefer_clip_image002_0000.jpg
 ---
 ## Gustav Schaefer 1845 - November 1, 1936
 ## Maria Schaefer 1847 - April 10, 1931

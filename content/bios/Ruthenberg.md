@@ -1,5 +1,6 @@
 ---
 title: August & Wilhelmina Ruthenberg
+thumbnailUrl: ruthenberg/Charles-E-Ruthenberg.jpg
 ---
 ## August: 1839 – 1898
 ## Wilhelmina: 1846 – 1914

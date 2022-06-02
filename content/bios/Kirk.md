@@ -1,5 +1,6 @@
 ---
 title: William and Margaret Kirk
+thumbnailUrl: kirk/kirk.png
 ---
 ## William Kirk 1851 - 1922
 ## Margaret Kirk 1852 - 1915

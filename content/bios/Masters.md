@@ -1,5 +1,6 @@
 ---
 title: Irvine U. Masters
+thumbnailUrl: masters/masters1.png
 ---
 ## Irvine U. Masters 1819 - 1865
 ## Naomi DOD 1863

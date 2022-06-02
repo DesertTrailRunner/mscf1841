@@ -1,5 +1,6 @@
 ---
 title: James A. and Anna Thome
+thumbnailUrl: thome/thome.jpg
 ---
 ## James A. Thome 1813 - 1873
 ## Anna Thome 1819 - 1893

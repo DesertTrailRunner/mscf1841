@@ -1,5 +1,6 @@
 ---
 title: John and Gracia Beverlin
+thumbnailUrl: beverlin/beverlin1thumb.png
 ---
 ## John Beverlin 1813 - 1891
 ## Gracia Beverlin 1816 - 1893

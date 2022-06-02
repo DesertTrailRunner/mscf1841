@@ -25,6 +25,6 @@ export default {
     <article>
       <nuxt-content :document="bio" />
     </article>
-    <prev-next :prev="prev" :next="next" />
+    <!-- <prev-next :prev="prev" :next="next" /> -->
   </div>
 </template>
