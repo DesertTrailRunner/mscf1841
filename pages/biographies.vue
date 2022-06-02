@@ -35,6 +35,8 @@ export default Vue.extend({
   <div>
     <h1>Biographies</h1>
 
+    <p style="margin-bottom: 3em">Read about the many stories of the families and individuals resting in peace at the Monroe Street Cemetery.</p>
+
     <div class="biographies">
       <NuxtLink
         class="biography-thumbnail"

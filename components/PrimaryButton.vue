@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
- * PrimaryButton
- * @date 2022-05-31
+ * PrimaryButton Vue2
+ * @date 2022-06-02
  */
 import Vue, { PropOptions } from "vue";
 
@@ -13,6 +13,7 @@ export default Vue.extend({
     methods: {
         go() {
             if (this.url) window.open(this.url, "_blank");
+            else this.$emit("click");
         }
     }
 });

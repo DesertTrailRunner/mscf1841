@@ -43,8 +43,7 @@ export default Vue.extend({
         <p>
           Be the first one on your block to own one!! Amaze your friends,
           astound your relatives, make everybody jealous that they don’t have
-          one. (But be sure and tell them how they can get one – we need the
-          money!!!)
+          one.
         </p>
         <p>
           Tees are available in M, L, XL and 2XL. Cost is $20.00 + $2.50 S&H
