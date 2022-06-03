@@ -1,5 +1,8 @@
 ---
 title: NAME
+last: 
+category:
+thumbnailUrl:
 ---
 ## NAME
 
