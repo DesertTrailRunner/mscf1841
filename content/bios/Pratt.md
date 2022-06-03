@@ -1,5 +1,7 @@
 ---
 title: Frederick and Cordelia Pratt
+last: Pratt
+category: 
 thumbnailUrl: pratt/Alex_Heeter_P8090310.jpg
 ---
 ## Frederick Pratt 1815 - 1888

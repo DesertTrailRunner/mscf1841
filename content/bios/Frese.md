@@ -1,5 +1,7 @@
 ---
 title: Christopher Frese
+last: Frese
+category: Politician
 thumbnailUrl: frese/Frese-carriage.jpg
 ---
 ## Christopher Frese 1834-1904

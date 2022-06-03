@@ -1,7 +1,7 @@
 <script lang="ts">
 /**
  * Biographies
- * @date 2022-06-02
+ * @date 2022-06-03
  */
 import Vue from "vue";
 
@@ -20,8 +20,8 @@ export default Vue.extend({
   },
   async asyncData({ $content, params }) {
     const bios = await $content("bios")
-      .only(["title", "slug", "thumbnailUrl", "path"])
-      .sortBy("title", "asc")
+      .only(["title", "slug", "thumbnailUrl", "last", "category", "path"])
+      .sortBy("last", "asc")
       .fetch();
 
     return {

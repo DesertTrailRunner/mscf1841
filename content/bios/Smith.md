@@ -1,5 +1,7 @@
 ---
 title: Anson and Amy Smith
+last: Smith
+category: 
 thumbnailUrl: smith/Anson-and-Amy-Smith-tombstone.jpg
 ---
 ## Anson Smith 1795-1891

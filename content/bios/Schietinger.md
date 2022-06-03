@@ -1,5 +1,7 @@
 ---
 title: John Schietinger
+last: Schietinger
+category: Veteran
 thumbnailUrl: schietinger/sheldon-and-carolyn.jpg
 ---
 ## John Schietinger 1842 - 1873

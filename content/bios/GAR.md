@@ -1,5 +1,7 @@
 ---
 title: Grand Army of the Republic (GAR)
+last: GAR
+category: Veteran
 thumbnailUrl: gar/gar_clip_image005.jpg
 ---
 ## Honoring our Fallen Brothers

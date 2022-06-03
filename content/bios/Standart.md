@@ -1,5 +1,7 @@
 ---
 title: Needham Maynard and Naomi Standart
+last: Standart
+category: Business leaders
 thumbnailUrl: standart/standart1.png
 ---
 ## Needham Maynard Standart 1797 - December 4, 1874

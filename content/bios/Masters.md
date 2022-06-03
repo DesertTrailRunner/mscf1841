@@ -1,5 +1,7 @@
 ---
 title: Irvine U. Masters
+last: Masters
+category: Politician
 thumbnailUrl: masters/masters1.png
 ---
 ## Irvine U. Masters 1819 - 1865

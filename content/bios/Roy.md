@@ -1,5 +1,7 @@
 ---
 title: Isabell Roy
+last: Roy
+category: 
 thumbnailUrl: roy/Roy-headstone.jpg
 ---
 ## March 22, 1850 - November 15, 1867

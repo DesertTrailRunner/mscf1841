@@ -1,5 +1,7 @@
 ---
 title: Gustav and Maria Schaefer
+last: Schaefer
+category: Business leaders
 thumbnailUrl: schaefer/schaefer_clip_image002_0000.jpg
 ---
 ## Gustav Schaefer 1845 - November 1, 1936

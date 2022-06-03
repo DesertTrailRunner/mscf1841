@@ -1,5 +1,7 @@
 ---
 title: Walter M. and Sarah Prentice
+last: Prentice
+category: 
 thumbnailUrl: prentice/prentice_clip_image002.jpg
 ---
 ## Walter M. Prentice 1820 - 1864

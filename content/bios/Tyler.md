@@ -1,5 +1,7 @@
 ---
 title: Benjamin F. Tyler
+last: Tyler
+category: 
 thumbnailUrl: tyler/Tyler-headstone.jpg
 ---
 ## Benjamin Tyler, 1803 – 1865

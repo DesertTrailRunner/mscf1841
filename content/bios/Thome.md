@@ -1,5 +1,7 @@
 ---
 title: James A. and Anna Thome
+last: Thome
+category: Abolitionist
 thumbnailUrl: thome/thome.jpg
 ---
 ## James A. Thome 1813 - 1873
