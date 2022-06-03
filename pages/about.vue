@@ -45,7 +45,7 @@ export default Vue.extend({
           collapsed, historic Gatehouse. We are currently involved in the
           following and welcome your help!
         </p>
-
+        <h3>Foundation Activities</h3>
         <ol>
           <li>Coordinate maintenance of existing trees</li>
           <li>Plant new trees and pollinator gardens</li>
@@ -60,10 +60,7 @@ export default Vue.extend({
           <li>Event programming to make the Cemetery a neighborhood amenity</li>
         </ol>
 
-        <p>
-          The Monroe Street Cemetery Foundation is an Ohio Corporation with
-          Federal Employer Identification Number 26-1792248.
-        </p>
+        
       </section>
       <section>
         <h3>Foundation contact information</h3>
@@ -73,7 +70,16 @@ export default Vue.extend({
           <a href="mailto:mscf3207@att.net">mscf3207@att.net</a>
         </p>
         <h3>Cemetery location</h3>
-        <p><a href="https://goo.gl/maps/4wk6SS6rBB8pHhPS8" target="map">3207 Monroe Ave, Cleveland, OH 44113</a></p>
+        <p>
+          <a href="https://goo.gl/maps/4wk6SS6rBB8pHhPS8" target="map"
+            >3207 Monroe Ave, Cleveland, OH 44113</a
+          >
+        </p>
+        <h3>Status</h3>
+        <p>
+          The Monroe Street Cemetery Foundation is an Ohio Corporation with
+          Federal Employer Identification Number 26-1792248.
+        </p>
       </section>
       <div>
         <ImageFigure

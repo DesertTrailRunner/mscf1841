@@ -11,14 +11,14 @@ export default Vue.extend({
   name: "GiftShopPage",
   layout: "info",
   head: {
-    title: 'Items to purchase to support the Monroe Street Cemetery Foundation',
+    title: "Items to purchase to support the Monroe Street Cemetery Foundation",
     meta: [
       {
-        hid: 'description',
-        name: 'description',
-        content: ''
-      }
-    ]
+        hid: "description",
+        name: "description",
+        content: "",
+      },
+    ],
   },
   components: { ImageFigure, PrimaryButton },
   mounted() {
@@ -34,8 +34,8 @@ export default Vue.extend({
   <div>
     <h1>Gift Shop</h1>
     <p>
-      Browse our gifts and memorabilia for the Monroe Street Cemetery. All
-      purchases go toward the Monroe Street Cemetery Foundation.
+      Browse our gifts and memorabilia for the Monroe Street Cemetery. Purchase online or order by mail. All
+      purchases go toward the <NuxtLink to="/about">Monroe Street Cemetery Foundation activities.</NuxtLink>
     </p>
     <div class="columns2">
       <section>
@@ -49,10 +49,19 @@ export default Vue.extend({
           Tees are available in M, L, XL and 2XL. Cost is $20.00 + $2.50 S&H
           each.
         </p>
-        <img src="~/assets/images/gift-shop/MSCF-T-Shirt-front.png" />
-        <img src="~/assets/images/gift-shop/MSCF-T-Shirt-back.png" />
+        <ImageFigure
+          src="images/gift-shop/MSCF-T-Shirt-front.png"
+          caption="T-shirt front"
+          size="medium"
+        />
+        <ImageFigure
+          src="images/gift-shop/MSCF-T-Shirt-back.png"
+          caption="T-shirt back"
+          size="medium"
+        />
 
-        <h2>Get out your reading glasses!</h2>
+        <h2>Books</h2>
+        <h4>Get out your reading glasses!</h4>
         <p>
           For you history buffs or if you just want to know more about Monroe
           Street Cemetery and persons at rest there, we have assembled a
@@ -60,15 +69,28 @@ export default Vue.extend({
           stuff about Ohio City, the cemetery, Cleveland and life in the
           Victorian Era.
         </p>
+        <h3>Cemetery History</h3>
         <p>
-          The biographies contained on this website under history are stories
+          The <NuxtLink to="/biographies">biographies</NuxtLink> are stories
           taken directly from the book. A black and white edition is available
           for $25.00. Please add $5.00 to your order for S&H.
         </p>
-        <img src="~/assets/images/gift-shop/book.png" />
+        <ImageFigure
+          src="images/gift-shop/book.png"
+          caption="Cemetery History Book"
+          size="medium"
+        />
+        <h3>Ripped from the Headlines</h3>
+        <p>The eighteen stories included in this book have certain things in common. First the primary person(s) in each story is buried at Monroe Street Cemetery, Cleveland's oldest, west side public cemetery. Second, these stories were all recorded in local newspapers and some of them in national newspapers also. Third, each story deals with the death of one or more people. These stories represent a common problem of comeleries. We see a headstone, we see a name, we see dates, but we don't see the story.</p>
+        <ImageFigure
+          src="images/gift-shop/headlines.jpg"
+          caption="Ripped from the Headlines Book"
+          size="medium"
+        />
       </section>
       <section>
-        <h2>Dress up that blank spot on your wall</h2>
+        <h2>Framed Photographs</h2>
+        <h3>Dress up that blank spot on your wall</h3>
         <p>
           Color photographs of Monroe Street Cemetery are available. These are
           5″ x 7″ photos, matted and framed. Select from those shown below. Cost
@@ -90,24 +112,23 @@ export default Vue.extend({
           size="large"
         />
       </section>
-    <section>
-      <h2>Order online:</h2>
-      <div ref="formEmbed"></div>
-    </section>
-    <section>
-      <h3>Or:</h3>
-      <PrimaryButton
-        label="Download order form"
-        url="/downloads/MSCF-gift-shop-order-form.doc"
-      />
-      <p>
-        Write your selections on the order form, make your check out to Monroe
-        Street Cemetery Foundation and mail it to the address: Monroe Street
-        Cemetery Foundation P.O. BOX 93671, CLEVELAND, OHIO 44101 
-      </p>
-      <p>Please allow
-        4-6 weeks for delivery.</p>
-    </section>
+      <section>
+        <h2>Order online:</h2>
+        <div ref="formEmbed"></div>
+      </section>
+      <section>
+        <h3>Or:</h3>
+        <PrimaryButton
+          label="Download order form"
+          url="/downloads/MSCF-gift-shop-order-form.doc"
+        />
+        <p>
+          Write your selections on the order form, make your check out to Monroe
+          Street Cemetery Foundation and mail it to the address: Monroe Street
+          Cemetery Foundation P.O. BOX 93671, CLEVELAND, OHIO 44101
+        </p>
+        <p>Please allow 4-6 weeks for delivery.</p>
+      </section>
     </div>
   </div>
 </template>
