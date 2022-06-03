@@ -26,8 +26,7 @@ export default Vue.extend({
         email us at
         <a href="mailto:mscf3207@att.net">mscf3207@att.net</a>. Please provide
         the full name of the person you are interested in and their Section and
-        Lot Number if you have it. On our website, if you go to the HISTORY drop
-        down on the Home Page you will find a link to the Cleveland Cemeteries
+        Lot Number if you have it. In <NuxtLink to="/maps-and-records">Maps & Records</NuxtLink> you will find a link to the Cleveland Cemeteries
         Index where you may be able to find the Section and Lot Number.
         (Information on burials before 1860 is not available.) Headstone
         photographs are emailed to the requester and we do not charge for this

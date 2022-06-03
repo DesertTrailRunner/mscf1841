@@ -52,9 +52,9 @@ export default Vue.extend({
           direction of Vicki Vigil, digitized those records which can now be
           found at the website below. Records at Monroe Street Cemetery are not
           available from before 1860. If you go searching for your loved one’s
-          records without success please contact us so that we may assist you,
-          if possible. Also please see the SERVICES & PRODUCTS menu for
-          genealogical research services and headstone photograph services that
+          records without success please <NuxtLink to="/about">contact us</NuxtLink> so that we may assist you,
+          if possible. Also please see <NuxtLink to="/research">
+          genealogical research services and headstone photograph services</NuxtLink> that
           we may be able to provide for you.
         </p>
         <PrimaryButton

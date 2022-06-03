@@ -44,16 +44,10 @@ export default Vue.extend({
           <SocialMediaIcons />
         </div>
         <div>
-          <img
-            class="feature-image"
-            src="~/assets/images/home/Alex_Heeter_P8090310.jpg"
-          />
+          <ImageFigure src="images/home/Alex_Heeter_P8090310.jpg" caption="Photo courtesy of Alex Heeter"/>
         </div>
         <div>
-          <img
-            class="feature-image"
-            src="~/assets/images/home/Alex_Heeter_P8090383.jpg"
-          />
+          <ImageFigure src="images/home/Alex_Heeter_P8090383.jpg" caption="Photo courtesy of Alex Heeter"/>
         </div>
       </div>
     </section>

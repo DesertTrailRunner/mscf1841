@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * NewsItems
- * @date 2022-06-02
+ * @date 2022-06-03
  */
 import Vue, { PropOptions } from "vue";
 
@@ -26,7 +26,7 @@ export default Vue.extend({
     <h2>News and Upcoming Events</h2>
     <div class="news-item" v-for="(newsItem, n) in news" :key="n">
       <div>
-        <h3>{{ newsItem.name }}</h3>
+        <h3>{{ newsItem.title }}</h3>
         <p>{{ newsItem.date }}</p>
         <div v-html="newsItem.summary" />
       </div>

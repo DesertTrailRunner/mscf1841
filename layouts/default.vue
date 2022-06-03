@@ -24,7 +24,7 @@ export default Vue.extend({
     <footer>
       <span>Monroe Street Cemetery Foundation</span>
       <span>
-        <a href="https://goo.gl/maps/T4h5QhPpMikFYGQK6" target="map">3207 Monroe Ave, Cleveland, OH 44113</a>
+        <a href="https://goo.gl/maps/T4h5QhPpMikFYGQK6" target="map">Cemetery: 3207 Monroe Ave, Cleveland, OH 44113</a>
       </span>
     </footer>
   </div>

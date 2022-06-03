@@ -36,16 +36,16 @@ export default Vue.extend({
 
         <h3>Activities might include:</h3>
         <ul>
-          <li>Attending monthly meetings</li>
-          <li>Helping with events</li>
+          <li>Attend monthly meetings</li>
+          <li>Help with events</li>
           <li>Conduct walking tours</li>
           <li>Plant trees</li>
           <li>Help water and maintain plants</li>
           <li>Social media</li>
           <li>Monument restoration</li>
         </ul>
-        <p><a href="https://www.facebook.com/MonroeStreetCemetery/jobs/">Opportunities</a> may be posted to our Facebook page as Jobs.</p>
-        <p>We meet at Forest City Brewery on the second Wednesday of each month.</p>
+        <p><a href="https://www.facebook.com/MonroeStreetCemetery/jobs/" target="facebook">Volunteer opportunities</a> may be posted to our Facebook page as Jobs.</p>
+        <p>We meet at <a href="https://www.forestcitybrewery.com/" target="_blank">Forest City Brewery</a> on the second Wednesday of each month.</p>
         <SocialMediaIcons />
       </section>
 
