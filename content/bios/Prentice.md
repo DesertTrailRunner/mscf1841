@@ -3,6 +3,7 @@ title: Walter M. and Sarah Prentice
 last: Prentice
 category: 
 thumbnailUrl: prentice/prentice_clip_image002.jpg
+pubdate: 2019-01-01
 ---
 ## Walter M. Prentice 1820 - 1864
 ## Sarah Prentice DOD 1876

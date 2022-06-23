@@ -3,6 +3,7 @@ title: John and Gracia Beverlin
 last: Beverlin
 category: Politician
 thumbnailUrl: beverlin/beverlin1thumb.png
+pubdate: 2019-01-01
 ---
 ## John Beverlin 1813 - 1891
 ## Gracia Beverlin 1816 - 1893

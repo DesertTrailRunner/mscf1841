@@ -3,6 +3,7 @@ title: Richard and Anna Lord
 last: Lord
 category: 
 thumbnailUrl: lord/lord1.png
+pubdate: 2019-01-01
 ---
 ## Richard Lord 1780 - 1857
 ## Anna Lord 1792 - 1871

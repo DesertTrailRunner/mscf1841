@@ -3,6 +3,7 @@ title: Thomas and Sarah Holmden
 last: Holmden
 category: 
 thumbnailUrl: holmden/holmden-residence.png
+pubdate: 2022-05-01
 ---
 ## Thomas Holmden 1818 - 1886
 ## Sarah Holmden 1818 - 1870

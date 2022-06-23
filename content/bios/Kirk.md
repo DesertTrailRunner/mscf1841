@@ -3,6 +3,7 @@ title: William and Margaret Kirk
 last: Kirk
 category: 
 thumbnailUrl: kirk/kirk.png
+pubdate: 2019-01-01
 ---
 ## William Kirk 1851 - 1922
 ## Margaret Kirk 1852 - 1915

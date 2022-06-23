@@ -3,6 +3,7 @@ title: James A. and Anna Thome
 last: Thome
 category: Abolitionist
 thumbnailUrl: thome/thome.jpg
+pubdate: 2019-01-01
 ---
 ## James A. Thome 1813 - 1873
 ## Anna Thome 1819 - 1893

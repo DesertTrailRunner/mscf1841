@@ -3,6 +3,7 @@ title: Jacob and Magdalena Baehr
 last: Baehr
 category: Business Leader
 thumbnailUrl: baehr/baehr_clip_image001.jpg
+pubdate: 2019-01-01
 ---
 ## Jacob Baehr 1824 - 1873
 ## Magdalena Baehr 1834 - 1909

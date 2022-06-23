@@ -3,6 +3,7 @@ title: Ella Grant Wilson
 last: Wilson
 category:
 thumbnailUrl: wilson/Wilson-photo.jpg
+pubdate: 2022-05-01
 ---
 ## Ella Grant Wilson 1854 - 1939
 

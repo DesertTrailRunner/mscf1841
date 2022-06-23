@@ -3,6 +3,7 @@ title: Benjamin F. Tyler
 last: Tyler
 category: 
 thumbnailUrl: tyler/Tyler-headstone.jpg
+pubdate: 2019-01-01
 ---
 ## Benjamin Tyler, 1803 – 1865
 ## Sarah Tyler, 1809 – 1880

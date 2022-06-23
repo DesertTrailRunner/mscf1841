@@ -3,6 +3,7 @@ title: Taylor Family
 last: Taylor
 category: Veteran
 thumbnailUrl: taylor/taylor_thumbnail.jpg
+pubdate: 2022-06-23
 ---
 ## The Taylor Family
 

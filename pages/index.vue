@@ -3,21 +3,41 @@ import Vue from "vue";
 
 import SocialMediaIcons from "~/components/SocialMediaIcons.vue";
 import NewsItems from "~/components/NewsItems.vue";
+import BiographyThumbnail from "~/components/BiographyThumbnail.vue";
 
 export default Vue.extend({
   name: "IndexPage",
   layout: "default",
   head: {
-    title: 'Monroe Street Cemetery Foundation',
+    title: "Monroe Street Cemetery Foundation",
     meta: [
       {
-        hid: 'description',
-        name: 'description',
-        content: ''
-      }
-    ]
+        hid: "description",
+        name: "description",
+        content: "",
+      },
+    ],
   },
-  components: { SocialMediaIcons, NewsItems },
+  components: { SocialMediaIcons, NewsItems, BiographyThumbnail },
+  async asyncData({ $content, params }) {
+    const bios = await $content("bios")
+      .only([
+        "title",
+        "slug",
+        "thumbnailUrl",
+        "last",
+        "category",
+        "path",
+        "pubdate",
+      ])
+      .sortBy("pubdate", "desc")
+      .limit(4)
+      .fetch();
+
+    return {
+      bios,
+    };
+  },
 });
 </script>
 
@@ -41,13 +61,23 @@ export default Vue.extend({
           </section>
         </div>
         <div>
+          <h3>Recently published biographies</h3>
+          <div class="biographies">
+            <BiographyThumbnail v-for="(bio, b) in bios" :key="b" :bio="bio" />
+          </div>
           <SocialMediaIcons />
         </div>
         <div>
-          <ImageFigure src="images/home/Alex_Heeter_P8090310.jpg" caption="Photo courtesy of Alex Heeter"/>
+          <ImageFigure
+            src="images/home/Alex_Heeter_P8090310.jpg"
+            caption="Photo courtesy of Alex Heeter"
+          />
         </div>
         <div>
-          <ImageFigure src="images/home/Alex_Heeter_P8090383.jpg" caption="Photo courtesy of Alex Heeter"/>
+          <ImageFigure
+            src="images/home/Alex_Heeter_P8090383.jpg"
+            caption="Photo courtesy of Alex Heeter"
+          />
         </div>
       </div>
     </section>

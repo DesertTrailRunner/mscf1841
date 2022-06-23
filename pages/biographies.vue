@@ -4,6 +4,7 @@
  * @date 2022-06-03
  */
 import Vue from "vue";
+import BiographyThumbnail from "~/components/BiographyThumbnail.vue";
 
 export default Vue.extend({
   name: "BiographiesPage",
@@ -18,9 +19,10 @@ export default Vue.extend({
       },
     ],
   },
+  components: { BiographyThumbnail },
   async asyncData({ $content, params }) {
     const bios = await $content("bios")
-      .only(["title", "slug", "thumbnailUrl", "last", "category", "path"])
+      .only(["title", "slug", "thumbnailUrl", "last", "category", "path", "pubdate"])
       .sortBy("last", "asc")
       .fetch();
 
@@ -35,21 +37,12 @@ export default Vue.extend({
   <div>
     <h1>Biographies</h1>
 
-    <p style="margin-bottom: 3em">Read about the many stories of the families and individuals resting in peace at the Monroe Street Cemetery.</p>
-
+    <p style="margin-bottom: 3em">
+      Read about the many stories of the families and individuals resting in
+      peace at the Monroe Street Cemetery.
+    </p>
     <div class="biographies">
-      <NuxtLink
-        class="biography-thumbnail"
-        v-for="(bio, b) of bios"
-        :key="b"
-        :to="{ path: bio.path }"
-      >
-        <img
-          v-if="bio.thumbnailUrl"
-          :src="require(`~/assets/images/bios/${bio.thumbnailUrl}`)"
-        />
-        <span>{{ bio.title }}</span>
-      </NuxtLink>
+      <BiographyThumbnail v-for="(bio,b) in bios" :key="b" :bio="bio"/>
     </div>
   </div>
 </template>

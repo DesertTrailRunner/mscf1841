@@ -3,6 +3,7 @@ title: Irvine U. Masters
 last: Masters
 category: Politician
 thumbnailUrl: masters/masters1.png
+pubdate: 2019-01-01
 ---
 ## Irvine U. Masters 1819 - 1865
 ## Naomi DOD 1863

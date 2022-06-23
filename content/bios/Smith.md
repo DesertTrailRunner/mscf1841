@@ -3,6 +3,7 @@ title: Anson and Amy Smith
 last: Smith
 category: 
 thumbnailUrl: smith/Anson-and-Amy-Smith-tombstone.jpg
+pubdate: 2019-01-01
 ---
 ## Anson Smith 1795-1891
 ## Amy Smith 1797-1877

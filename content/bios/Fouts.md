@@ -3,6 +3,7 @@ title: The Fouts Family
 last: Fouts
 category:
 thumbnailUrl: fouts/fouts-headstone.jpg
+pubdate: 2022-05-01
 ---
 ## Jacob: 1806 - 1871
 ## Harriet: 1808 - 1888

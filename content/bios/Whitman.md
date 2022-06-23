@@ -3,6 +3,7 @@ title: Henry L. and Susan Whitman
 last: Whitman
 category:
 thumbnailUrl: whitman/whitman-monument.jpg
+pubdate: 2019-01-01
 ---
 ## Henry Whitman December 12, 1815 – December 20, 1866
 ## Susan Whitman abt 1818 – November 18, 1878

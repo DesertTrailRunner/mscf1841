@@ -3,6 +3,7 @@ title: Elias Sims
 last: Sims
 category: 
 thumbnailUrl: sims/sims_clip_image002.jpg
+pubdate: 2019-01-01
 ---
 ## Elias Sims 1813 - 1885
 

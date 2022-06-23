@@ -3,6 +3,7 @@ title: William Bainbridge Castle and Mary Derby
 last: Castle
 category: Politician
 thumbnailUrl: castle/castle1thumb.png
+pubdate: 2019-01-01
 ---
 ## William Bainbridge Castle 1814 - 1872
 ## Mary Derby DOD 1837

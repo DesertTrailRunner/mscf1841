@@ -3,6 +3,7 @@ title: Christopher Frese
 last: Frese
 category: Politician
 thumbnailUrl: frese/Frese-carriage.jpg
+pubdate: 2019-01-01
 ---
 ## Christopher Frese 1834-1904
 ## Maria Louisa Frese 1828-1904

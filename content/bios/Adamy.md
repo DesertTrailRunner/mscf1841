@@ -3,6 +3,7 @@ title: Henry Adamy
 last: Adamy
 category: Veteran
 thumbnailUrl: adamy/adamy_thumbnail.jpg
+pubdate: 2022-06-23
 ---
 ## Henry Adamy
 ### Veteran of the American Revolution

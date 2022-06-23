@@ -3,6 +3,7 @@ title: Needham Maynard and Naomi Standart
 last: Standart
 category: Business leaders
 thumbnailUrl: standart/standart1.png
+pubdate: 2019-01-01
 ---
 ## Needham Maynard Standart 1797 - December 4, 1874
 ## Naomi Standart 1798 - April 12, 1860

@@ -3,6 +3,7 @@ title: Westel J and Mary Ann Weed
 last: Weed
 category:
 thumbnailUrl: weed/weed-gravestone-3.jpg
+pubdate: 2019-01-01
 ---
 ## Westel J Weed 1831 – September 7, 1903
 ## Mary Ann Weed 1833 - 1922
