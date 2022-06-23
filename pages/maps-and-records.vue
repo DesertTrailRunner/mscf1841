@@ -51,7 +51,7 @@ export default Vue.extend({
           Cuyahoga Genealogical Society and many, many volunteers, under the
           direction of Vicki Vigil, digitized those records which can now be
           found at the website below. Records at Monroe Street Cemetery are not
-          available from before 1860. If you go searching for your loved one’s
+          available from before 1863. If you go searching for your loved one’s
           records without success please <NuxtLink to="/about">contact us</NuxtLink> so that we may assist you,
           if possible. Also please see <NuxtLink to="/research">
           genealogical research services and headstone photograph services</NuxtLink> that
