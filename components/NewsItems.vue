@@ -1,7 +1,15 @@
 <script lang='ts'>
 /**
  * NewsItems
- * @date 2022-06-03
+ * @date 2022-06-23
+ * Format of news items:
+   {
+        "title": "",
+        "date": "June 12, 2022 2:00 - 4:00 pm",
+        "duration": "2 hours",
+        "summary": "<p></p>",
+        "thumbnailUrl": "/images/news/image.jpg"
+   }
  */
 import Vue, { PropOptions } from "vue";
 
@@ -23,7 +31,7 @@ export default Vue.extend({
 
 <template>
   <div class="news-items">
-    <h2>News and Upcoming Events</h2>
+    <h2 v-if="news && news.length">News and Upcoming Events</h2>
     <div class="news-item" v-for="(newsItem, n) in news" :key="n">
       <div>
         <h3>{{ newsItem.title }}</h3>
