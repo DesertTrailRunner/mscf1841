@@ -4,6 +4,7 @@ import Vue from "vue";
 import SocialMediaIcons from "~/components/SocialMediaIcons.vue";
 import NewsItems from "~/components/NewsItems.vue";
 import BiographyThumbnail from "~/components/BiographyThumbnail.vue";
+import FoundationActivities from "~/components/FoundationActivities.vue";
 
 export default Vue.extend({
   name: "IndexPage",
@@ -18,7 +19,7 @@ export default Vue.extend({
       },
     ],
   },
-  components: { SocialMediaIcons, NewsItems, BiographyThumbnail },
+  components: { SocialMediaIcons, NewsItems, BiographyThumbnail, FoundationActivities },
   async asyncData({ $content, params }) {
     const bios = await $content("bios")
       .only([
@@ -58,6 +59,7 @@ export default Vue.extend({
           </section>
           <section>
             <NewsItems url="/data/news.json" />
+            <FoundationActivities/>
           </section>
         </div>
         <div>

@@ -1,6 +1,8 @@
 <script lang="ts">
 import Vue from "vue";
 
+import FoundationActivities from "~/components/FoundationActivities.vue";
+
 export default Vue.extend({
   name: "AboutPage",
   layout: "default",
@@ -14,6 +16,7 @@ export default Vue.extend({
       },
     ],
   },
+  components: { FoundationActivities },
 });
 </script>
 
@@ -45,22 +48,7 @@ export default Vue.extend({
           collapsed, historic Gatehouse. We are currently involved in the
           following and welcome your help!
         </p>
-        <h3>Foundation Activities</h3>
-        <ol>
-          <li>Coordinate maintenance of existing trees</li>
-          <li>Plant new trees and pollinator gardens</li>
-          <li>Plant flowers</li>
-          <li>
-            Coordinate repairs and maintenance to the gatehouse, mausoleums, and
-            monument restoration
-          </li>
-          <li>Genealogy and history research</li>
-          <li>Educational initiatives and community engagement</li>
-          <li>Pursue arboretum accreditation</li>
-          <li>Event programming to make the Cemetery a neighborhood amenity</li>
-        </ol>
-
-        
+        <FoundationActivities />
       </section>
       <section>
         <h3>Foundation contact information</h3>
