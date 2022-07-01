@@ -5,8 +5,8 @@
 import Vue from "vue";
 
 const REDIRECTS: object = {
-  "32": "/cemetery-index",
-  "29": "/cemetery-map",
+  "32": "/maps-and-records",
+  "29": "/maps-and-records",
   "65": "/bios",
   "148": "/history",
   "135": "/history",
