@@ -1,10 +1,11 @@
 <script lang='ts'>
 /**
  * NewsItems
- * @date 2022-06-23
+ * @date 2022-09-15
  * Format of news items:
    {
         "title": "",
+        "url": "//eventbright.com/",
         "date": "June 12, 2022 2:00 - 4:00 pm",
         "duration": "2 hours",
         "summary": "<p></p>",
@@ -26,6 +27,13 @@ export default Vue.extend({
       news: [],
     };
   },
+  methods: {
+    openItem(newsItem:any) {
+      if (newsItem && newsItem.url) {
+        window.open(newsItem.url, "_blank");
+      }
+    }
+  }
 });
 </script>
 
@@ -33,7 +41,7 @@ export default Vue.extend({
   <div class="news-items">
     <h2 v-if="news && news.length">News and Upcoming Events</h2>
     <div class="news-item" v-for="(newsItem, n) in news" :key="n">
-      <div>
+      <div :class="{clickable:newsItem.url!=''}" @click="openItem(newsItem)">
         <h3>{{ newsItem.title }}</h3>
         <p>{{ newsItem.date }}</p>
         <div v-html="newsItem.summary" />
@@ -58,6 +66,12 @@ export default Vue.extend({
 .news-item h3 {
   margin: 0;
   font-weight: bold;
+}
+.clickable {
+  cursor: pointer;
+}
+.clickable:hover {
+  background-color:lightyellow;
 }
 @media screen and (max-width: 768px) {
   .news-item {

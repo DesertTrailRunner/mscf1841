@@ -1,4 +1,5 @@
-# mscf-nuxt
+# Monroe Street Cemetery Foundation
+## Nuxt-based Vue website
 
 ## Build Setup
 
@@ -9,7 +10,7 @@ $ npm install
 # serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
+# build for production and launch local server for final testing
 $ npm run build
 $ npm run start
 
