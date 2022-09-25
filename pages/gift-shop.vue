@@ -43,15 +43,32 @@ export default Vue.extend({
     <div class="columns2">
       <section>
         <h2>Books</h2>
-        <h4>Get out your reading glasses!</h4>
-        <ImageFigure
-          src="images/gift-shop/book.png"
-          caption="Cemetery History Book"
-          size="medium"
-        />
         <h3>The Martha Washington Case</h3>
+        <h4>An Ohio City Hero versus Scoundrels and Rogues (A True Story)</h4>
+        <p>
+          In the 19th century piracy on the inland waterways was a significant
+          problem. The loss of the steamer Martha Washington is one of the most
+          extraordinary events in the records of marine disasters, a cloud of
+          mystery hanging over the whole subject, which will probably never be
+          cleared away. This steamer was on her way from Cincinnati to New
+          Orleans, when she took fire on the Mississippi River at about half
+          past one o’clock on the morning of January 14, 1852. The boat was
+          entirely consumed. Several passengers lost their lives, but all the
+          officers and crew, except the carpenter, were saved. The work of
+          destruction was completed within three minutes.
+        </p>
+        <p>
+          This book is the story of Sidney Burton, an Ohio City businessman who
+          fell prey to a group of criminals. These scoundrels hatched a plot to
+          defraud several insurance companies by taking out policies on a
+          substantial list of cargo, the majority of which did not, in fact,
+          exist. Sidney Burton spent the last three years of his life and every
+          penny he had ever earned pursuing the criminals to bring them to
+          justice. The story gripped the entire nation with newspapers covering
+          the story in incredible depth spanning the years 1852 to 1856.
+        </p>
         <ImageFigure
-          src="images/gift-shop/martha-washington-case.jpg"
+          src="images/gift-shop/martha-washington-case2.jpg"
           caption="The Martha Washington Case Book"
           size="medium"
         />
@@ -79,6 +96,11 @@ export default Vue.extend({
           Victorian Era.
         </p>
         <h3>Cemetery History</h3>
+        <ImageFigure
+          src="images/gift-shop/book.png"
+          caption="Cemetery History Book"
+          size="medium"
+        />
         <p>
           The <NuxtLink to="/biographies">biographies</NuxtLink> are stories
           taken directly from the book. A black and white edition is available
