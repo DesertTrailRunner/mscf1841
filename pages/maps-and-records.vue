@@ -50,8 +50,7 @@ export default Vue.extend({
           LDS Church sent a crew to record the cemetery records. The East
           Cuyahoga Genealogical Society and many, many volunteers, under the
           direction of Vicki Vigil, digitized those records which can now be
-          found at the website below. Records at Monroe Street Cemetery are not
-          available from before 1863. If you go searching for your loved one’s
+          found at the website below. If you go searching for your loved one’s
           records without success please <NuxtLink to="/about">contact us</NuxtLink> so that we may assist you,
           if possible. Also please see <NuxtLink to="/research">
           genealogical research services and headstone photograph services</NuxtLink> that
@@ -61,6 +60,9 @@ export default Vue.extend({
           label="Cleveland Cemetery Index"
           url="http://usgenwebsites.org/OHCuyahoga/Cemeteries/clecems/00dexfind.html#mon"
         />
+        <p>Records from before 1863 are now available thanks to members of the Foundation.</p>
+        <div><PrimaryButton label="Burials 1836-1863" url="https://docs.google.com/document/d/1q6duEHR4q84q0IzqVKaP_wdja_xHhLWz/edit?usp=sharing&ouid=100109147989278288547&rtpof=true&sd=true"/></div>
+        <div><PrimaryButton label="Burials moved to Cemetery" url="https://docs.google.com/document/d/14hY1UaDgBvJq9pG_fgU9rcjtpGaRyCHu/edit?usp=sharing&ouid=100109147989278288547&rtpof=true&sd=true"/></div>
       </section>
     </div>
   </div>
