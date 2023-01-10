@@ -1,13 +1,14 @@
 <script lang="ts">
 import Vue from "vue";
-import PayPalDonation from "~/components/PayPalDonation.vue";
+// import PayPalDonation from "~/components/PayPalDonation.vue";
+import PrimaryButton from "~/components/PrimaryButton.vue";
 
 const FORM_URL =
   "https://www.iatspayments.com/AURA/AURA.aspx?PID=PA55556718625B6EDC";
 
 export default Vue.extend({
   name: 'DonationsPage',
-  components: { PayPalDonation },
+  components: { PrimaryButton },
   layout: 'info',
   head: {
     title: 'Donate to the Monroe Street Cemetery Foundation',
@@ -24,7 +25,7 @@ export default Vue.extend({
     s.setAttribute("type", "text/javascript");
     s.setAttribute("src", FORM_URL);
     (this.$refs.formEmbed as HTMLDivElement).appendChild(s);
-  },
+  }
 });
 </script>
 
@@ -54,12 +55,13 @@ export default Vue.extend({
         </p>
         <p>P.O. BOX 93671, CLEVELAND, OHIO 44101</p>
         <p>Our thanks in advance for your financial help.</p>
-        <p><i>We offer multiple methods of donating: PayPal, Venmo or the online form below.</i></p>
-
+        <p><i>We offer multiple methods of donating: PayPal or the online form below.</i></p>
+        <p>
+          <PrimaryButton label="Donate via PayPal" url="https://www.paypal.com/paypalme/monroecemetery" />
+        </p>
       </section>
       <div>
-        <h3>Donate via PayPal</h3>
-        <PayPalDonation />
+        <img class="sidebar-image" src="~/assets/images/donations/Tree-headstone-20210818.jpg" />
       </div>
     </div>
     <section ref="formEmbed"></section>
