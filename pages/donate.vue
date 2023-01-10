@@ -1,11 +1,13 @@
 <script lang="ts">
 import Vue from "vue";
+import PayPalDonation from "~/components/PayPalDonation.vue";
 
 const FORM_URL =
   "https://www.iatspayments.com/AURA/AURA.aspx?PID=PA55556718625B6EDC";
 
 export default Vue.extend({
   name: 'DonationsPage',
+  components: { PayPalDonation },
   layout: 'info',
   head: {
     title: 'Donate to the Monroe Street Cemetery Foundation',
@@ -52,16 +54,18 @@ export default Vue.extend({
         </p>
         <p>P.O. BOX 93671, CLEVELAND, OHIO 44101</p>
         <p>Our thanks in advance for your financial help.</p>
+        <p><i>We offer multiple methods of donating: PayPal, Venmo or the online form below.</i></p>
+
       </section>
       <div>
-        <img
-          class="sidebar-image"
-          src="~/assets/images/donations/Tree-headstone-20210818.jpg"
-        />
+        <h3>Donate via PayPal</h3>
+        <PayPalDonation />
       </div>
     </div>
     <section ref="formEmbed"></section>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
