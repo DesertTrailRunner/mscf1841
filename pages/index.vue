@@ -59,14 +59,14 @@ export default Vue.extend({
           </section>
           <section>
             <NewsItems url="/data/news.json" />
-            <FoundationActivities/>
           </section>
         </div>
         <div>
-          <h3>Recently published biographies</h3>
+          <FoundationActivities/>
+          <!-- <h3>Recently published biographies</h3>
           <div class="biographies">
             <BiographyThumbnail v-for="(bio, b) in bios" :key="b" :bio="bio" />
-          </div>
+          </div> -->
           <SocialMediaIcons />
         </div>
         <div>

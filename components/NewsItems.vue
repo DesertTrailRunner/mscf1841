@@ -1,11 +1,12 @@
 <script lang='ts'>
 /**
  * NewsItems
- * @date 2022-09-15
+ * @date 2023-03-05
  * Format of news items:
    {
         "title": "",
         "url": "//eventbright.com/",
+        "target": "_blank",
         "date": "June 12, 2022 2:00 - 4:00 pm",
         "duration": "2 hours",
         "summary": "<p></p>",
@@ -30,7 +31,7 @@ export default Vue.extend({
   methods: {
     openItem(newsItem:any) {
       if (newsItem && newsItem.url) {
-        window.open(newsItem.url, "_blank");
+        window.open(newsItem.url, newsItem.target);
       }
     }
   }

@@ -80,7 +80,7 @@ export default Vue.extend({
           Second, these stories were all recorded in local newspapers and some
           of them in national newspapers also. Third, each story deals with the
           death of one or more people. These stories represent a common problem
-          of comeleries. We see a headstone, we see a name, we see dates, but we
+          of cemeteries. We see a headstone, we see a name, we see dates, but we
           don't see the story.
         </p>
         <ImageFigure
