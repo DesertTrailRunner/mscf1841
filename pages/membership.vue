@@ -30,9 +30,10 @@ export default Vue.extend({
         <p>
           If you’re interested in receiving news about the Monroe Street
           Cemetery and Foundation, or becoming involved, send us an email with
-          your interests to:
+          your interests to: 
           <a href="mailto:mscf3207@att.net">mscf3207@att.net</a>
         </p>
+        <p>We meet at <a href="https://www.forestcitybrewery.com/" target="_blank">Forest City Brewery</a> on the second Wednesday of each month.</p>
 
         <h3>Activities might include:</h3>
         <ul>
@@ -46,7 +47,7 @@ export default Vue.extend({
           <li>Conduct walking tours</li>
         </ul>
         <p><a href="https://www.facebook.com/MonroeStreetCemetery/jobs/" target="facebook">Volunteer opportunities</a> may be posted to our Facebook page as Jobs.</p>
-        <p>We meet at <a href="https://www.forestcitybrewery.com/" target="_blank">Forest City Brewery</a> on the second Wednesday of each month.</p>
+        
         <SocialMediaIcons />
       </section>
 
