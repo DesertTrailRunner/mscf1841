@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * NewsItems
- * @date 2023-03-05
+ * @date 2023-04-27
  * Format of news items:
    {
         "title": "",
@@ -40,7 +40,7 @@ export default Vue.extend({
 
 <template>
   <div class="news-items">
-    <h2 v-if="news && news.length">News and Upcoming Events</h2>
+    <h2 v-if="news && news.length">Upcoming Events</h2>
     <div class="news-item" v-for="(newsItem, n) in news" :key="n">
       <div :class="{clickable:newsItem.url!=''}" @click="openItem(newsItem)">
         <h3>{{ newsItem.title }}</h3>

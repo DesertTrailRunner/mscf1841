@@ -1,29 +1,38 @@
 [
     {
-        "title": "Annual Members Meeting",
+        "title": "Arbor Day",
         "url": "",
-        "date": "Wednesday, April 12 5:30pm",
-        "duration": "1 hour",
-        "summary": "<p>Members are welcome to vote on upcoming office and board positions.</p>",
-        "thumbnailUrl": "images/news/tree-planting-team.jpg",
+        "date": "Friday, April 28",
+        "duration": "",
+        "summary": "",
+        "thumbnailUrl": "",
         "target": ""
     },
     {
-        "title": "The Martha Washington Case",
-        "url": "/gift-shop",
-        "date": "",
+        "title": "Tree Planting",
+        "url": "",
+        "date": "May 20, 2023",
         "duration": "",
-        "summary": "<p>This book is the story of Sidney Burton, an Ohio City businessman who fell prey to a group of criminals. </p>",
-        "thumbnailUrl": "https://mscf1841.org/_nuxt/img/martha-washington-case2.74b6279.jpg",
-        "target": "_self"
+        "summary": "",
+        "thumbnailUrl": "",
+        "target": ""
     },
     {
-        "title": "Ripped from the Headlines",
-        "url": "/gift-shop",
-        "date": "",
+        "title": "Cemetery Walk",
+        "url": "",
+        "date": "June 25, 2023",
         "duration": "",
-        "summary": "<p>The eighteen stories included in this book deal with the death of one or more people buried at Monroe Street Cemetery.</p>",
-        "thumbnailUrl": "https://mscf1841.org/_nuxt/img/headlines.0fc32d1.jpg",
-        "target": "_self"
+        "summary": "",
+        "thumbnailUrl": "",
+        "target": ""
+    },
+    {
+        "title": "Garden Walk",
+        "url": "",
+        "date": "July 8, 2023",
+        "duration": "",
+        "summary": "",
+        "thumbnailUrl": "",
+        "target": ""
     }
 ]

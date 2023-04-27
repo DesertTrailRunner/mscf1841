@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Arbor Day",
+        "url": "",
+        "date": "Friday, April 28",
+        "duration": "",
+        "summary": "",
+        "thumbnailUrl": "",
+        "target": ""
+    },
+    {
+        "title": "The Martha Washington Case",
+        "url": "/gift-shop",
+        "date": "",
+        "duration": "",
+        "summary": "<p>This book is the story of Sidney Burton, an Ohio City businessman who fell prey to a group of criminals. </p>",
+        "thumbnailUrl": "https://mscf1841.org/_nuxt/img/martha-washington-case2.74b6279.jpg",
+        "target": "_self"
+    },
+    {
+        "title": "Ripped from the Headlines",
+        "url": "/gift-shop",
+        "date": "",
+        "duration": "",
+        "summary": "<p>The eighteen stories included in this book deal with the death of one or more people buried at Monroe Street Cemetery.</p>",
+        "thumbnailUrl": "https://mscf1841.org/_nuxt/img/headlines.0fc32d1.jpg",
+        "target": "_self"
+    }
+]
