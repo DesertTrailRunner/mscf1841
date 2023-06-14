@@ -3,3 +3,5 @@ remove-item -path ~/web/mscf/firebase-deploy/dist -recurse -force -erroraction i
 copy-item -path dist -destination ~/web/mscf/firebase-deploy -recurse
 cd ../firebase-deploy
 firebase deploy
+cd ../nuxtjs2-static
+Write-Host "...Site has been deployed."

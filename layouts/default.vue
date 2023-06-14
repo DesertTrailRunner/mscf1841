@@ -1,7 +1,7 @@
 <script lang="ts">
 /**
  * Info layout
- * @date 2022-11-13
+ * @date 2023-06-14
  */
 import Vue from 'vue'
 
@@ -23,10 +23,11 @@ export default Vue.extend({
     </main>
 
     <footer>
-      <span>Monroe Street Cemetery Foundation</span>
-      <span>
+      <div>Monroe Street Cemetery Foundation</div>
+      <div>
         <a href="https://goo.gl/maps/T4h5QhPpMikFYGQK6" target="map">Cemetery: 3207 Monroe Ave, Cleveland, OH 44113</a>
-      </span>
+        <span>Foundation: P.O. BOX 93671, CLEVELAND, OHIO 44101</span>
+      </div>
       <AccreditedArboretum/>
     </footer>
   </div>
