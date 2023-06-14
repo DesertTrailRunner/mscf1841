@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * FoundationActivities
- * @date 2022-11-13
+ * @date 2023-06-14
  */
 import Vue, { PropOptions } from "vue";
 
@@ -10,6 +10,13 @@ export default Vue.extend({});
 
 <template>
   <div>
+    <h3>Foundation Activities in 2023</h3>
+    <ol>
+      <li>Planting trees</li>
+      <li>Tree clean-up and weed removal</li>
+      <li><a href="https://www.instagram.com/p/CqbCpLNJX7q/" target="cleanup">Uncovering of hidden graves</a></li>
+      <li><a href="https://www.instagram.com/p/Cs7BouDNxPx/" target="memorial">Decorating veteran graves with flags for Memorial Day</a></li>
+    </ol>
     <h3>Foundation Activities in 2022</h3>
     <ol>
       <li><a href="http://www.arbnet.org/morton-register/historic-monroe-street-cemetery-arboretum" target="arbnet">Accredited arboretrum</a></li>
