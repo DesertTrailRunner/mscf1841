@@ -31,7 +31,7 @@ export default Vue.extend({
           If you’re interested in receiving news about the Monroe Street
           Cemetery and Foundation, or becoming involved, send us an email with
           your interests to: 
-          <a href="mailto:mscf3207@att.net">mscf3207@att.net</a>
+          <a href="mailto:info@mscf1841.org">info@mscf1841.org</a>
         </p>
         <p>We meet at <a href="https://www.forestcitybrewery.com/" target="_blank">Forest City Brewery</a> on the second Wednesday of each month.</p>
 

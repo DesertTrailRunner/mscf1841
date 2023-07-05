@@ -56,6 +56,7 @@ export default Vue.extend({
               enhancement of the oldest public cemetery on Cleveland's west
               side.
             </p>
+            <p>We have a new email: <a href="mailto:info@mscf1841.org">info@mscf1841.org</a></p>
           </section>
           <section>
             <NewsItems url="/data/news.json" />

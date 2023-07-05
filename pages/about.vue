@@ -53,9 +53,9 @@ export default Vue.extend({
       <section>
         <h3>Foundation contact information</h3>
         <p>P.O. BOX 93671, CLEVELAND, OHIO 44101</p>
-        <p>216-272-9806</p>
+        <p>216-202-4872</p>
         <p>
-          <a href="mailto:mscf3207@att.net">mscf3207@att.net</a>
+          <a href="mailto:info@mscf1841.org">info@mscf1841.org</a>
         </p>
         <h3>Cemetery location</h3>
         <p>

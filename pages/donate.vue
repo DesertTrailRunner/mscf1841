@@ -51,7 +51,7 @@ export default Vue.extend({
           Inquiries regarding donations, membership or any other aspect of the
           organization should be sent to the below snail mail address or emailed
           to
-          <a href="mailto:mscf3207@att.net">mscf3207@att.net</a>.
+          <a href="mailto:info@mscf1841.org">info@mscf1841.org</a>.
         </p>
         <p>P.O. BOX 93671, CLEVELAND, OHIO 44101</p>
         <p>Our thanks in advance for your financial help.</p>

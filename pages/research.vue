@@ -24,7 +24,7 @@ export default Vue.extend({
       <p>
         If you would like a photograph of a headstone at Monroe Street Cemetery
         email us at
-        <a href="mailto:mscf3207@att.net">mscf3207@att.net</a>. Please provide
+        <a href="mailto:info@mscf1841.org">info@mscf1841.org</a>. Please provide
         the full name of the person you are interested in and their Section and
         Lot Number if you have it. In <NuxtLink to="/maps-and-records">Maps & Records</NuxtLink> you will find a link to the Cleveland Cemeteries
         Index where you may be able to find the Section and Lot Number.
