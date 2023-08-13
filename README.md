@@ -20,6 +20,15 @@ $ npm run generate
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
+
+## Deploying to production
+The build script will build and generate the static HTML.
+The deploy script will copy it to the firebase-deploy directory and then deploy it to firebase
+```
+./build
+./deploy
+```
+
 ## Special Directories
 
 You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.

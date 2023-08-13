@@ -1,7 +1,7 @@
 <script lang="ts">
 /**
  * ImageFigure
- * @date 2022-06-02
+ * @date 2023-08-13
  */
 import Vue, { PropOptions } from "vue";
 
@@ -19,7 +19,7 @@ export default Vue.extend({
 
 <template>
   <figure>
-    <img :class="size" :src="require(`~/assets/${src}`)"/>
+    <img :class="size" :src="require(`~/assets/${src}`)" :alt="caption"/>
     <figcaption>{{caption}}</figcaption>
   </figure>
 </template>

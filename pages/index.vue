@@ -49,7 +49,7 @@ export default Vue.extend({
       <h1>Monroe Street Cemetery</h1>
       <div class="columns2">
         <div>
-          <section>
+          <div>
             <p>
               Monroe Street Cemetery Foundation is a 501(c)(3) nonprofit,
               all-volunteer organization dedicated to the preservation and
@@ -57,10 +57,10 @@ export default Vue.extend({
               side.
             </p>
             <p>We have a new email: <a href="mailto:info@mscf1841.org">info@mscf1841.org</a></p>
-          </section>
-          <section>
+          </div>
+          <div>
             <NewsItems url="/data/news.json" />
-          </section>
+          </div>
         </div>
         <div>
           <FoundationActivities/>

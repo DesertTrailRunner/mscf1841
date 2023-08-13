@@ -26,7 +26,7 @@ export default Vue.extend({
     <h2>Mission Statement</h2>
 
     <div class="columns2">
-      <section>
+      <div>
         <p>
           The Monroe Street Cemetery Foundation, a 501(c)(3) nonprofit, all
           volunteer organization was established to preserve and enhance the
@@ -40,17 +40,17 @@ export default Vue.extend({
           src="images/about/cmte-at-forest-city-brewery.jpg"
           caption="Foundation Committee Monthly Meeting at Forest City Brewery"
         />
-      </section>
+      </div>
 
-      <section>
+      <div>
         <p>
           The Foundation was instrumental in getting the City to rebuild the
           collapsed, historic Gatehouse. We are currently involved in the
           following and welcome your help!
         </p>
         <FoundationActivities />
-      </section>
-      <section>
+      </div>
+      <div>
         <h3>Foundation contact information</h3>
         <p>P.O. BOX 93671, CLEVELAND, OHIO 44101</p>
         <p>216-202-4872</p>
@@ -68,7 +68,7 @@ export default Vue.extend({
           The Monroe Street Cemetery Foundation is an Ohio Corporation with
           Federal Employer Identification Number 26-1792248.
         </p>
-      </section>
+      </div>
       <div>
         <ImageFigure
           src="images/about/MSCF-Regrow-illustration-full-res.jpg"

@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'The Monroe Street Cemetery Foundation is established to preserve and enhance the historic cemetery grounds, headstones, monuments and burial structures and provide educational opportunities for the general public and other public awareness activities.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     script: [

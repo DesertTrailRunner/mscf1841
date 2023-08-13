@@ -1,7 +1,7 @@
 <script lang="ts">
 /**
  * Info layout
- * @date 2023-06-14
+ * @date 2023-08-13
  */
 import Vue from 'vue'
 
@@ -9,17 +9,17 @@ import SiteNav from "~/components/SiteNav.vue";
 import AccreditedArboretum from "~/components/AccreditedArboretum.vue";
 
 export default Vue.extend({
-  components: { SiteNav,AccreditedArboretum },
+  components: { SiteNav, AccreditedArboretum },
 });
 </script>
 <template>
   <div>
     <header>
-      <SiteNav/>
+      <SiteNav />
     </header>
 
     <main>
-      <Nuxt/>
+      <Nuxt />
     </main>
 
     <footer>
@@ -28,7 +28,7 @@ export default Vue.extend({
         <a href="https://goo.gl/maps/T4h5QhPpMikFYGQK6" target="map">Cemetery: 3207 Monroe Ave, Cleveland, OH 44113</a>
         <span>Foundation: P.O. BOX 93671, CLEVELAND, OHIO 44101</span>
       </div>
-      <AccreditedArboretum/>
+      <AccreditedArboretum />
     </footer>
   </div>
 </template>
