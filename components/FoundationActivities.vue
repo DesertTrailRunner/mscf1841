@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * FoundationActivities
- * @date 2023-10-24
+ * @date 2024-03-02
  */
 import Vue, { PropOptions } from "vue";
 
@@ -13,7 +13,7 @@ export default Vue.extend({});
     <h3>Foundation Activities in 2023</h3>
     <ol>
       <li>Stories from Beyond the Grave Fundraiser</li>
-      <li>Planted 16 trees</li>
+      <li>Planted 34 trees</li>
       <li>Participated in <a href="https://www.gardenwalkcleveland.org/" target="_blank">GardenWalk Cleveland</a></li>
       <li>Tree clean-up and weed removal</li>
       <li><a href="https://www.instagram.com/p/CqbCpLNJX7q/" target="cleanup">Uncovered hidden graves</a></li>

@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * NewsItems
- * @date 2023-04-27
+ * @date 2024-03-02
  * Format of news items:
    {
         "title": "",
@@ -41,14 +41,14 @@ export default Vue.extend({
 <template>
   <div class="news-items">
     <h2 v-if="news && news.length">Upcoming Events</h2>
-    <div class="news-item" v-for="(newsItem, n) in news" :key="n">
-      <div :class="{clickable:newsItem.url!=''}" @click="openItem(newsItem)">
+    <div class="news-item" v-for="(newsItem, n) in news" :key="n" :class="{'clickable':newsItem.url!=''}" @click="openItem(newsItem)">
+      <div v-if="newsItem.thumbnailUrl" class="thumbnail">
+        <img :src="newsItem.thumbnailUrl" />
+      </div>
+      <div>
         <h3>{{ newsItem.title }}</h3>
         <p>{{ newsItem.date }}</p>
         <div v-html="newsItem.summary" />
-      </div>
-      <div>
-        <img v-if="newsItem.thumbnailUrl" :src="newsItem.thumbnailUrl" />
       </div>
     </div>
   </div>
@@ -56,13 +56,18 @@ export default Vue.extend({
 
 <style scoped>
 .news-item {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin-bottom: 1em;
-  grid-gap: 2em;
+  display: block;
+  margin-bottom: 30px;
 }
-.news-item img {
+.thumbnail {
+  max-width: 400px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  object-fit: contain;
   width: 100%;
+  height: 100%;
 }
 .news-item h3 {
   margin: 0;
@@ -70,9 +75,11 @@ export default Vue.extend({
 }
 .clickable {
   cursor: pointer;
+  border-left: 2px solid transparent;
 }
 .clickable:hover {
   background-color:lightyellow;
+  border-left: 2px solid #aaa;
 }
 @media screen and (max-width: 768px) {
   .news-item {
