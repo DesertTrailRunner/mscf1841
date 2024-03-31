@@ -19,11 +19,11 @@
     },
     {
         "title": "Zombie Run and Lurch",
-        "url": "",
+        "url": "/zombie-run",
         "date": "Sunday, September 22, 2024",
         "duration": "",
         "summary": "",
         "thumbnailUrl": "",
-        "target": ""
+        "target": "_self"
     }
 ]

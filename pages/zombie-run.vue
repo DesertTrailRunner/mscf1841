@@ -28,7 +28,7 @@ export default Vue.extend({
       <div>
         <p>Join us for an exciting run or walk through Ohio City's South of Lorain neighborhood. Dress up as a Zombie or put on your scariest outfit.
         </p> 
-        <p>This fast, flat, shadey course will begin and end in the historic Monroe Street Cemetery and travel through <a href="https://www.clevelandmetroparks.com/parks/visit/parks/ohio-erie-canal-reservation/red-line-greenway" target="_blank">the Redline Greenway.</a> You'll experience two of the largest greenspaces in Cleveland!</p>
+        <p>The unique course is fast, flat, and shady. It will begin and end in the historic Monroe Street Cemetery and travel through <a href="https://www.clevelandmetroparks.com/parks/visit/parks/ohio-erie-canal-reservation/red-line-greenway" target="_blank">the Redline Greenway.</a> You'll experience two of the largest greenspaces in Cleveland!</p>
       </div>
 
       <div>
