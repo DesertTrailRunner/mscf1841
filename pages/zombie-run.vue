@@ -1,5 +1,6 @@
 <script lang="ts">
 import Vue from "vue";
+import PrimaryButton from "~/components/PrimaryButton.vue";
 
 export default Vue.extend({
   name: "ZombieRunAndLurch",
@@ -29,6 +30,7 @@ export default Vue.extend({
         <p>Join us for a unique and exciting run or walk through the historic Monroe Street Cemetery and  <a href="https://www.clevelandmetroparks.com/parks/visit/parks/ohio-erie-canal-reservation/red-line-greenway" target="_blank">Cleveland Metroparks Red Line Greenway</a> in Ohio City's South of Lorain neighborhood. Dress up as a Zombie or put on your scariest outfit!
         </p> 
         <p>The course is fast, flat, and shady. You'll experience two of the largest greenspaces in the area, and be supporting an all-volunteer organization that is actively working to preserve and enhance the historic cemetery grounds, plant and maintain trees, repair headstones, monuments and burial structures.</p>
+        <PrimaryButton label="Register for run or walk"  url="https://runsignup.com/Race/OH/Cleveland/ZombieRunandLurch"/>
       </div>
 
       <div>
