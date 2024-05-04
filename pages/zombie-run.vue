@@ -21,7 +21,7 @@ export default Vue.extend({
 
 <template>
   <div>
-    <ImageFigure src="images/zombie/zombie-run-logo.png" size="small"/>
+    <ImageFigure src="images/zombie/Zombie-run_medium.png" size="medium"/>
     <h2>5k run or 1 mile fun walk</h2>
     <h3>Sunday, September 22, 2024 9:00 am</h3>
 

@@ -70,6 +70,10 @@ This directory contains your static files. Each file inside this directory is ma
 
 Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
+### Images for home page news items
+Place the image in /static/images/news/
+Reference it as /images/news/image-name.png
+
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
 
 ### `store`
