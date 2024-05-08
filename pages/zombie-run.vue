@@ -21,14 +21,14 @@ export default Vue.extend({
 
 <template>
   <div>
-    <img src="~/assets/images/zombie/zombie-run-logo.png" alt="Zombie Run and Lurch" style="width:100%; max-width:600px;"/>
-    <h2>5k run and 1 mile fun walk to benefit the Monroe Street Cemetery Foundation</h2>
-    <h3>Sunday, September 22, 2024 9:00 am</h3>
-    <h4>3207 Monroe Ave, Cleveland, OH 44113</h4>
 
     <div class="columns2">
       <div>
-        <p>Join us for a unique and exciting run or walk through the historic Monroe Street Cemetery and <a
+        <p><img src="~/assets/images/zombie/Zombie-run_large.png" alt="Zombie Run and Lurch logo" style="width:100%;"/></p>
+        <h2>To benefit the Monroe Street Cemetery Foundation</h2>
+        <h3>Sunday, September 22, 2024 9:00 am</h3>
+        <h4>3207 Monroe Ave, Cleveland, OH 44113</h4>
+            <p>Join us for a unique and exciting run or walk through the historic Monroe Street Cemetery and <a
             href="https://www.clevelandmetroparks.com/parks/visit/parks/ohio-erie-canal-reservation/red-line-greenway"
             target="_blank">Cleveland Metroparks Red Line Greenway</a> in Ohio City's South of Lorain neighborhood.
           Dress up as a Zombie or put on your scariest outfit!
@@ -38,7 +38,6 @@ export default Vue.extend({
           cemetery grounds, plant and maintain trees, repair headstones, monuments and burial structures.</p>
         <PrimaryButton label="Register for run or walk"
           url="https://runsignup.com/Race/OH/Cleveland/ZombieRunandLurch" />
-        <p><img src="~/assets/images/zombie/Zombie-run_medium.png" alt="Zombie Run and Lurch logo" style="width:316px;"/></p>
         <p>
           Monroe Street Cemetery is the resting place for local political and business leaders, safety forces, veterans
           and many others who built Cleveland and its communities. There are more than 34,000 stories in this beautiful
@@ -49,11 +48,26 @@ export default Vue.extend({
 
       <div class="sponsors">
         <h2>Sponsors</h2>
-        <div><img src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration" style="width:300px"/></div>
-        <div><img src="~/assets/images/zombie/sponsors/strange-n-spooky-haunted-tours-of-cleveland-logo-with-text.webp" alt="Strange & Spooky Haunted Tours" /></div>
+        <div><a href="https://midstaterestoration.com/" target="_blank"><img src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration" style="width:300px"/></a></div>
+        <div><a href="https://strangenspooky.com/" target="_blank"><img src="~/assets/images/zombie/sponsors/strange-n-spooky-haunted-tours-of-cleveland-logo-with-text.webp" alt="Strange & Spooky Haunted Tours" /></a></div>
       </div>
     </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.sponsors {
+  background-color: #57585b;
+  padding: 20px;
+  color: #fff;
+}
+.sponsors h2 {
+  display: flex;
+  justify-content: center;
+}
+.sponsors>div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+</style>
