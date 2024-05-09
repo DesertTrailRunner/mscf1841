@@ -48,8 +48,8 @@ export default Vue.extend({
 
       <div class="sponsors">
         <h2>Sponsors</h2>
-        <div><a href="https://midstaterestoration.com/" target="_blank"><img src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration" style="width:300px"/></a></div>
-        <div><a href="https://strangenspooky.com/" target="_blank"><img src="~/assets/images/zombie/sponsors/strange-n-spooky-haunted-tours-of-cleveland-logo-with-text.webp" alt="Strange & Spooky Haunted Tours" /></a></div>
+        <div><a href="https://midstaterestoration.com/" target="_blank"><img class="logo" src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration"/></a></div>
+        <div><a href="https://strangenspooky.com/" target="_blank"><img class="logo" src="~/assets/images/zombie/sponsors/strange-n-spooky-haunted-tours.jpg" alt="Strange & Spooky Haunted Tours" /></a></div>
       </div>
     </div>
   </div>
@@ -69,5 +69,8 @@ export default Vue.extend({
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+}
+.sponsors img.logo {
+  max-width: 300px;
 }
 </style>
