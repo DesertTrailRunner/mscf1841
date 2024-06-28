@@ -50,6 +50,26 @@ export default Vue.extend({
         <h2>Sponsors</h2>
         <div><a href="https://midstaterestoration.com/" target="_blank"><img class="logo" src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration"/></a></div>
         <div><a href="https://strangenspooky.com/" target="_blank"><img class="logo" src="~/assets/images/zombie/sponsors/strange-n-spooky-haunted-tours.jpg" alt="Strange & Spooky Haunted Tours" /></a></div>
+        <div><a href="https://www.snavely.com/the-quarter" target="_blank"><img class="logo" src="~/assets/images/zombie/sponsors/quarter-logo.jpg" alt="Quarter" /></a></div>
+      </div>
+
+      <div class="route-photos">
+        <ImageFigure
+          src="images/zombie/route-photos/entrance.jpg"
+          caption="Red Line Greenway"
+        />
+        <ImageFigure
+          src="images/zombie/route-photos/path-and-bridge.jpg"
+          caption="Red Line Greenway"
+        />
+        <ImageFigure
+          src="images/zombie/route-photos/route-with-train.jpg"
+          caption="Red Line Greenway"
+        />
+        <ImageFigure
+          src="images/zombie/route-photos/route-greenery.jpg"
+          caption="Red Line Greenway"
+        />
       </div>
     </div>
   </div>
