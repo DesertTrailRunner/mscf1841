@@ -63,7 +63,18 @@ export default Vue.extend({
           </div>
         </div>
         <div>
-          <FoundationActivities/>
+          <div class="article-ref">
+            <a href="https://www.cleveland.com/news/2024/06/revolutionary-war-soldiers-19th-century-politicians-and-more-share-their-stories-from-the-grave-at-monroe-street-cemetery.html"
+              target="_blank">
+              <img
+                src="https://www.cleveland.com/resizer/v2/M3E2ATXHW5BM7EF2HS7JH3MF3U.jpg?auth=f5d4486b4bd52831218716302a0422f5ebc818b035081f0bf9392b6832306a60&width=1280&quality=90"
+                alt="An actor tells the story of Sofia Lord" />
+              <p> Revolutionary War soldiers, 19th century politicians and more share their stories from the grave at
+                Monroe Street Cemetery &mdash; cleveland.com
+              </p>
+            </a>
+          </div>
+          <FoundationActivities />
           <!-- <h3>Recently published biographies</h3>
           <div class="biographies">
             <BiographyThumbnail v-for="(bio, b) in bios" :key="b" :bio="bio" />
@@ -71,18 +82,26 @@ export default Vue.extend({
           <SocialMediaIcons />
         </div>
         <div>
-          <ImageFigure
-            src="images/home/Alex_Heeter_P8090310.jpg"
-            caption="Photo courtesy of Alex Heeter"
-          />
+          <ImageFigure src="images/home/Alex_Heeter_P8090310.jpg" caption="Photo courtesy of Alex Heeter" />
         </div>
         <div>
-          <ImageFigure
-            src="images/home/Alex_Heeter_P8090383.jpg"
-            caption="Photo courtesy of Alex Heeter"
-          />
+          <ImageFigure src="images/home/Alex_Heeter_P8090383.jpg" caption="Photo courtesy of Alex Heeter" />
         </div>
       </div>
     </section>
   </div>
 </template>
+
+<style>
+.article-ref {
+  width: 400px;
+}
+
+.article-ref img {
+  width: 100%;
+  display: block;
+}
+.article-ref p {
+  margin: 0;
+}
+</style>

@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * FoundationActivities
- * @date 2024-04-09
+ * @date 2024-07-02
  */
 import Vue, { PropOptions } from "vue";
 
@@ -10,6 +10,18 @@ export default Vue.extend({});
 
 <template>
   <div>
+    <h3>Foundation Activities in 2024</h3>
+    <ol>
+      <li><a href="https://www.instagram.com/p/C8xa9DZp25b/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          target="_blank">Voices From The Past - Cleveland History Days Event</a></li>
+      <li><a href="https://www.instagram.com/p/C7dKq0qABh2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          target="memorial">Decorated veteran graves with flags for
+          Memorial Day</a></li>
+      <li>Planting gardens</li>
+      <li>Tree clean-up and weed removal</li>
+      <li><a href="https://www.instagram.com/p/C5txUuepL42/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          target="_blank">Regrow Monroe Fundraiser</a></li>
+    </ol>
     <h3>Foundation Activities in 2023</h3>
     <ol>
       <li>Stories from Beyond the Grave Fundraiser</li>
@@ -30,8 +42,10 @@ export default Vue.extend({});
       </li>
       <li>Planted <a href="https://www.instagram.com/p/CihwQopAzrR/" target="events">flowers</a> to further beautify the
         Cemetery</li>
-      <li>Wrote <a href="/gift-shop">new books about Cemetery stories:</a> <i>The Martha Washington Case</i> and <i>Ripped
-          from the Headlines</i></li>
+      <li>Wrote <a href="/gift-shop">new books about Cemetery stories:</a> <i>The Martha Washington Case</i> and
+        <i>Ripped
+          from the Headlines</i>
+      </li>
       <li>Event programming to make the Cemetery a neighborhood amenity, such as the <a
           href="https://www.instagram.com/p/CjiPd_YsKSm/" target="events">Ghost Tour</a>, <a
           href="https://www.instagram.com/p/CedopUANllw/" target="events">Tree Wedding</a> and <a
@@ -41,9 +55,10 @@ export default Vue.extend({});
         monument restoration
       </li>
       <li>Decorated veteran graves with flags for Memorial Day and Veterans Day</li>
-    <li>Coordinated maintenance of existing trees</li>
-    <li>Educational initiatives and community engagement</li>
-  </ol>
-</div></template>
+      <li>Coordinated maintenance of existing trees</li>
+      <li>Educational initiatives and community engagement</li>
+    </ol>
+  </div>
+</template>
 
 <style scoped></style>
