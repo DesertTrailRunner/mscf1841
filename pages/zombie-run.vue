@@ -38,6 +38,8 @@ export default Vue.extend({
           cemetery grounds, plant and maintain trees, repair headstones, monuments and burial structures.</p>
         <PrimaryButton label="Register for run or walk"
           url="https://runsignup.com/Race/OH/Cleveland/ZombieRunandLurch" />
+        <p>Massage tent provided by <a href="https://www.wellfitrehab.com" target="_blank">WellFit Physical Therapy</a></p>
+        <p>Prizes offered from <a href="https://www.farkaspastries.com" target="_blank">Farkas Pastries</a></p>
         <p>
           Monroe Street Cemetery is the resting place for local political and business leaders, safety forces, veterans
           and many others who built Cleveland and its communities. There are more than 34,000 stories in this beautiful
@@ -51,6 +53,7 @@ export default Vue.extend({
         <div><a href="https://midstaterestoration.com/" target="_blank"><img class="logo" src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration"/></a></div>
         <div><a href="https://strangenspooky.com/" target="_blank"><img class="logo" src="~/assets/images/zombie/sponsors/strange-n-spooky-haunted-tours.jpg" alt="Strange & Spooky Haunted Tours" /></a></div>
         <div><a href="https://www.snavely.com/the-quarter" target="_blank"><img class="logo" src="~/assets/images/zombie/sponsors/quarter-logo.jpg" alt="Quarter" /></a></div>
+        <div><a href="https://www.bookhouse.beer/" target="_blank"><img class="logo" src="~/assets/images/zombie/sponsors/Bookhouse.png" alt="Bookhouse Brewing" /></a></div>
       </div>
 
       <div class="route-photos">
