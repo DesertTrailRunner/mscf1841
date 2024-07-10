@@ -51,7 +51,7 @@ export default Vue.extend({
         <div><span>Lesa Hess</span><span>Co-Founder, Board Member Emeritus</span></div>
         <div><span>George Hruby</span><span>Board Member</span></div>
         <div><span>Linda Litto</span><span>Board Member Emeritus</span></div>
-        <div><span>Lesley Michaels</span><span>Board Member</span></div>
+        <div><span>Lesley Patterson</span><span>Board Member</span></div>
         <div><span>Adam Saurwein</span><span>Board Member, President Emeritus</span></div>
         <div><span>Homer Taft</span><span>Board Member, President Emeritus</span></div>
         <div><span>Glen Zdolshek</span><span>Board Member</span></div>
