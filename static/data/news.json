@@ -1,20 +1,3 @@
 [
-    {
-        "title": "Cleveland Garden Walk",
-        "url": "https://www.gardenwalkcleveland.org/",
-        "date": "Saturday, July 13, 2024 10 - 5pm",
-        "duration": "",
-        "summary": "",
-        "thumbnailUrl": "",
-        "target": ""
-    },
-    {
-        "title": "Zombie Run and Lurch",
-        "url": "/zombie-run",
-        "date": "Sunday, September 22, 2024 9am",
-        "duration": "",
-        "summary": "",
-        "thumbnailUrl": "/images/news/Zombie-run_small.png",
-        "target": "_self"
-    }
+   
 ]
