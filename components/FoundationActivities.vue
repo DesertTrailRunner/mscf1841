@@ -12,6 +12,7 @@ export default Vue.extend({});
   <div>
     <h3>Foundation Activities in 2024</h3>
     <ol>
+      <li>Participated in <a href="https://www.gardenwalkcleveland.org/" target="_blank">GardenWalk Cleveland</a></li>
       <li><a href="https://www.instagram.com/p/C8xa9DZp25b/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           target="_blank">Voices From The Past - Cleveland History Days Event</a></li>
       <li><a href="https://www.instagram.com/p/C7dKq0qABh2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="

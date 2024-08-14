@@ -56,11 +56,11 @@ export default Vue.extend({
               enhancement of the oldest public cemetery on Cleveland's west
               side.
             </p>
-            <p>We have a new email: <a href="mailto:info@mscf1841.org">info@mscf1841.org</a></p>
           </div>
           <div>
             <NewsItems url="/data/news.json" />
           </div>
+          <FoundationActivities />
         </div>
         <div>
           <div class="article-ref">
@@ -74,7 +74,7 @@ export default Vue.extend({
               </p>
             </a>
           </div>
-          <FoundationActivities />
+          <p>We have a new email: <a href="mailto:info@mscf1841.org">info@mscf1841.org</a></p>
           <!-- <h3>Recently published biographies</h3>
           <div class="biographies">
             <BiographyThumbnail v-for="(bio, b) in bios" :key="b" :bio="bio" />
