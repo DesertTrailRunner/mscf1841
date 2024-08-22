@@ -63,6 +63,10 @@ export default Vue.extend({
           <FoundationActivities />
         </div>
         <div>
+          <div class="thank-you">
+            <p>A special thank you for support from:</p>
+            <ImageFigure src="images/zombie/sponsors/Bookhouse.png" caption="Bookhouse Brewing" />
+          </div>
           <div class="article-ref">
             <a href="https://www.cleveland.com/news/2024/06/revolutionary-war-soldiers-19th-century-politicians-and-more-share-their-stories-from-the-grave-at-monroe-street-cemetery.html"
               target="_blank">
