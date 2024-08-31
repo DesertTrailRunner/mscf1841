@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * NewsItems
- * @date 2024-03-02
+ * @date 2024-08-31
  * Format of news items:
    {
         "title": "",
@@ -60,12 +60,14 @@ export default Vue.extend({
   margin-bottom: 30px;
 }
 .thumbnail {
-  max-width: 400px;
-  height: 200px;
+  max-width: 600px;
+  height: 300px;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 .thumbnail img {
   object-fit: contain;
+  object-position: top left;
   width: 100%;
   height: 100%;
 }
