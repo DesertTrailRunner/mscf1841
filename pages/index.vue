@@ -65,6 +65,7 @@ export default Vue.extend({
         <div>
           <div class="thank-you">
             <p>A special thank you for support from:</p>
+            <ImageFigure src="images/coffins/sponsors/Goldies.webp" caption="Goldie's Donuts" size="medium" />
             <ImageFigure src="images/zombie/sponsors/Bookhouse.png" caption="Bookhouse Brewing" size="medium" />
           </div>
           <div class="article-ref">
