@@ -12,6 +12,8 @@ export default Vue.extend({});
   <div>
     <h3>Foundation Activities in 2024</h3>
     <ol>
+      <li>Trick-or-Treating in the Cemetery as part of Cleveland History Days</li>
+      <li>Monument setting</li>
       <li><a href="https://www.instagram.com/p/DAyZNsbpepr/" target="_blank">Coffee &amp; Coffins Classic Hearse Cruise-in</a></li>
       <li>Filling <a href="https://www.instagram.com/p/C9Pt8rztCG1/?img_index=1" target="_blank">sink-holes in the cemetery</a></li>
       <li>Participated in <a href="https://www.gardenwalkcleveland.org/" target="_blank">GardenWalk Cleveland</a></li>
