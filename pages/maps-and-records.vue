@@ -31,15 +31,11 @@ export default Vue.extend({
         <h3>Cemetery Map</h3>
         <p>
           To view the full resolution map of the cemetery, please
-          click the image below:
+          click the button below:
         </p>
         <PrimaryButton
-          label="View Map" @click="isMapVisible=true"
+          label="View Map" url="https://drive.google.com/file/d/1ZZyjF414dlMDqmSimT3VA4bOjsQUwXhI/view?usp=sharing"
         />
-        <ModalDialog v-model="isMapVisible" heading="Cemetery Map" width="90%" height="80%">
-          <img src="~/assets/images/map/monroe-street-cemetery-map-scaled.jpg"
-        />
-        </ModalDialog>
       </section>
       <section>
         <h3>Cemetery Index of Records</h3>
