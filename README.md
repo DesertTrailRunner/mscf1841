@@ -1,5 +1,5 @@
 # Monroe Street Cemetery Foundation
-## Nuxt-based Vue website
+## Nuxt 2-based Vue website
 
 ## Build Setup
 
