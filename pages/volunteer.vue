@@ -5,14 +5,14 @@ import ImageFigure from "~/components/global/ImageFigure.vue";
 import SocialMediaIcons from "~/components/SocialMediaIcons.vue";
 
 export default Vue.extend({
-  name: "MembershipPage",
+  name: "VolunteerPage",
   layout: "default",
   head: {
-    title: 'Membership and Volunteering for the Monroe Street Cemetery Foundation',
+    title: 'Volunteering for the Monroe Street Cemetery Foundation',
     meta: [
       {
         hid: 'description',
-        name: 'description',
+        name: 'The Foundation is seeking volunteers for a number of activities to help restore and beautify the cemetery.',
         content: ''
       }
     ]
@@ -23,7 +23,7 @@ export default Vue.extend({
 
 <template>
   <div>
-    <h1>Membership and Volunteering</h1>
+    <h1>Volunteer</h1>
 
     <div class="columns2">
       <section>
@@ -33,27 +33,23 @@ export default Vue.extend({
           your interests to: 
           <a href="mailto:info@mscf1841.org">info@mscf1841.org</a>
         </p>
+        <h3>We are seeking volunteers for:</h3>
+        <ul>
+          <li>Genealogy and historical research</li>
+          <li>Monument restoration</li>
+          <li>Help with fundraising events</li>
+          <li>Tree and garden maintenance</li>
+        </ul>
+        
         <p>We meet at <a href="https://www.forestcitybrewery.com/" target="_blank">Forest City Brewery</a> on the second Wednesday of each month.</p>
 
-        <h3>Activities might include:</h3>
-        <ul>
-          <li>Attend monthly meetings</li>
-          <li>Help with events</li>
-          <li>Plant trees</li>
-          <li>Help water and maintain plants</li>
-          <li>Genealogy and historical research</li>
-          <li>Social media</li>
-          <li>Monument restoration</li>
-          <li>Conduct walking tours</li>
-        </ul>
-        <p><a href="https://www.facebook.com/MonroeStreetCemetery/jobs/" target="facebook">Volunteer opportunities</a> may be posted to our Facebook page as Jobs.</p>
-        
         <SocialMediaIcons />
       </section>
 
       <section>
-        <ImageFigure src="images/membership/MSCF-members-2-med-res-768x595.jpg" caption="MSCF committee" />
-        <ImageFigure src="images/membership/MSCF-members-1-med-res-768x567.jpg" caption="MSCF committee" />
+        <ImageFigure src="images/volunteer/2024.11.24-photo-mscf-volunteer_day-group_photo.jpg" caption="Volunteers restoring headstones" />
+        <ImageFigure src="images/volunteer/IMG_2777.jpg" caption="Volunteers restoring headstones" />
+        <ImageFigure src="images/volunteer/IMG_2741.jpg" caption="Volunteers restoring headstones" />
       </section>
     </div>
   </div>
