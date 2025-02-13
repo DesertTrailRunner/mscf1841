@@ -36,6 +36,7 @@ export default Vue.extend({
         <h3>We are seeking volunteers for:</h3>
         <ul>
           <li>Genealogy and historical research</li>
+          <li>Mapping - trees and monuments</li>
           <li>Monument restoration</li>
           <li>Help with fundraising events</li>
           <li>Tree and garden maintenance</li>
