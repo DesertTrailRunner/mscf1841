@@ -7,5 +7,14 @@
         "duration": "4 hours",
         "summary": "<p>Fundraiser for the Monroe Street Cemetery Foundation at Forest City Shuffleboard Arena and Bar</p>",
         "thumbnailUrl": "/images/news/regrow2025.jpg"
+    },
+    {
+        "title": "Zombie Run and Lurch",
+        "url": "/zombie-run",
+        "date": "Sunday, September 21, 2025 9:00 am",
+        "duration": "",
+        "summary": "",
+        "thumbnailUrl": "/images/news/Zombie-run_small.png",
+        "target": "_self"
     }
 ]
