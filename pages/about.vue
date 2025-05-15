@@ -43,18 +43,18 @@ export default Vue.extend({
 
         <div class="board-members">
           <h3>Board of Directors</h3>
-        <div><span>William Krejci</span><span>President</span></div>
-        <div><span>Ben Hoffmann</span><span>Vice-President</span></div>
-        <div><span>Alan Fodor</span><span>Treasurer, Co-Founder</span></div>
-        <div><span>Toni Morgan</span><span>Secretary</span></div>
-        <div><span>Jill Collins</span><span>Board Member</span></div>
-        <div><span>Lesa Hess</span><span>Co-Founder, Board Member Emeritus</span></div>
+        <div><span>Toni Morgan</span><span>President, Board Member</span></div>
+        <div><span>Lesley Patterson</span><span>Vice-President, Board Member</span></div>
+        <div><span>Alan Fodor</span><span>Treasurer, Co-Founder, Board Member</span></div>
+        <div><span>Sean Koltiska</span><span>Secretary, Board Member</span></div>
+        <div><span>William Krejci</span><span>Board Member</span></div>
+        <div><span>Ben Hoffmann</span><span>Board Member</span></div>
+        <div><span>Lesa Hess</span><span>Co-Founder, Board Member</span></div>
         <div><span>George Hruby</span><span>Board Member</span></div>
-        <div><span>Linda Litto</span><span>Board Member Emeritus</span></div>
-        <div><span>Lesley Patterson</span><span>Board Member</span></div>
-        <div><span>Adam Saurwein</span><span>Board Member, President Emeritus</span></div>
-        <div><span>Homer Taft</span><span>Board Member, President Emeritus</span></div>
         <div><span>Glen Zdolshek</span><span>Board Member</span></div>
+        <div><span>Hayden Bish</span><span>Board Member</span></div>
+        <div><span>Homer Taft</span><span>President Emeritus</span></div>
+        <div><span>Adam Saurwein</span><span>President Emeritus</span></div>
         </div>
       </div>
 
