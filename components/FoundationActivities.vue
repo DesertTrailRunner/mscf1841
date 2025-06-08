@@ -10,6 +10,12 @@ export default Vue.extend({});
 
 <template>
   <div>
+    <h3>Foundation Activities in 2025</h3>
+    <ol>
+      <li><a href="https://www.instagram.com/p/DJw4AjZpxN_/?img_index=1" target="_blank">Tree planting</a></li>
+      <li>Scott mausoleum restoration</li>
+      <li><a href="https://www.instagram.com/p/DJUqcVKv0WQ/?img_index=1" target="_blank">Regrow Monroe 2025</a></li>
+    </ol>
     <h3>Foundation Activities in 2024</h3>
     <ol>
       <li><a href="https://www.instagram.com/p/DCcvANXJuRT/?img_index=1" target="_blank">Monument setting</a></li>
@@ -26,7 +32,6 @@ export default Vue.extend({});
           target="memorial">Decorated veteran graves with flags for
           Memorial Day</a></li>
       <li>Planting gardens</li>
-      <li>Tree clean-up and weed removal</li>
       <li><a href="https://www.instagram.com/p/C5txUuepL42/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           target="_blank">Regrow Monroe Fundraiser</a></li>
     </ol>
