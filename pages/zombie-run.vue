@@ -27,7 +27,7 @@ export default Vue.extend({
         <p><img src="~/assets/images/zombie/Zombie-run_large.png" alt="Zombie Run and Lurch logo" style="width:100%;" />
         </p>
         <h2>To benefit the Monroe Street Cemetery Foundation</h2>
-        <h3>Sunday October 12 2025, 2025 9:00 am</h3>
+        <h3>Sunday October 12, 2025 9:00 am</h3>
         <h4>Clark Field, Cleveland, OH 44113</h4>
         <p>Join us for an exciting run or walk along the Towpath Trail starting at Clark Field in Tremont. Dress up as a
           Zombie or put on your scariest outfit! You'll be supporting an all-volunteer 501(c)(3) nonprofit organization
