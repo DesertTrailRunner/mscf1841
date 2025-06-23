@@ -32,8 +32,7 @@ export default Vue.extend({
         <p>Join us for an exciting run or walk along the Towpath Trail starting at Clark Field in Tremont. Dress up as a
           Zombie or put on your scariest outfit! You'll be supporting an all-volunteer 501(c)(3) nonprofit organization
           that is actively working to preserve and enhance the historic cemetery grounds, plant and maintain trees,
-          repair headstones,
-          monuments and burial structures. In just the past few years, The Monroe Street Cemetery Foundation has:</p>
+          repair headstones, monuments and burial structures. In just the past few years, The Monroe Street Cemetery Foundation has:</p>
         <ul>
           <li>Planted 62 trees</li>
           <li>Became an Accredited arboretum</li>
@@ -56,6 +55,10 @@ export default Vue.extend({
           city's industrial heartland and the Cuyahoga River. The Towpath Trail provides a blend of historical context
           and scenic views of Cleveland's industrial riverfront. It serves as a key access point to explore both the
           northern and southern sections of the trail within the city.</p>
+        
+
+      </div>
+      <div>
         <ImageFigure src="images/zombie/route-photos/roundhouse.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/mound.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/joe-ramirez-scoreboard.jpg" caption="" />
@@ -63,7 +66,6 @@ export default Vue.extend({
         <ImageFigure src="images/zombie/route-photos/jackknife-bridge.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/w-6-with-houses.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/train-stop.jpg" caption="" />
-
       </div>
     </div>
   </div>

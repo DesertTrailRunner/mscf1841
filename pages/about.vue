@@ -47,14 +47,15 @@ export default Vue.extend({
         <div><span>Lesley Patterson</span><span>Vice-President, Board Member</span></div>
         <div><span>Alan Fodor</span><span>Treasurer, Co-Founder, Board Member</span></div>
         <div><span>Sean Koltiska</span><span>Secretary, Board Member</span></div>
-        <div><span>William Krejci</span><span>Board Member</span></div>
-        <div><span>Ben Hoffmann</span><span>Board Member</span></div>
-        <div><span>Lesa Hess</span><span>Co-Founder, Board Member</span></div>
-        <div><span>George Hruby</span><span>Board Member</span></div>
-        <div><span>Glen Zdolshek</span><span>Board Member</span></div>
         <div><span>Hayden Bish</span><span>Board Member</span></div>
-        <div><span>Homer Taft</span><span>President Emeritus</span></div>
+        <div><span>Ethan Clark</span><span>Board Member</span></div>
+        <div><span>Lesa Hess</span><span>Co-Founder, Board Member</span></div>
+        <div><span>Ben Hoffmann</span><span>Board Member</span></div>
+        <div><span>George Hruby</span><span>Board Member</span></div>
+        <div><span>William Krejci</span><span>Board Member</span></div>
         <div><span>Adam Saurwein</span><span>President Emeritus</span></div>
+        <div><span>Homer Taft</span><span>President Emeritus</span></div>
+        <div><span>Glen Zdolshek</span><span>Board Member</span></div>
         </div>
       </div>
 
