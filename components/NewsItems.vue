@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * NewsItems
- * @date 2024-08-31
+ * @date 2025-07-11
  * Format of news items:
    {
         "title": "",
@@ -10,7 +10,8 @@
         "date": "June 12, 2022 2:00 - 4:00 pm",
         "duration": "2 hours",
         "summary": "<p></p>",
-        "thumbnailUrl": "/images/news/image.jpg"
+        "thumbnailUrl": "/images/news/image.jpg",
+        "reverse": true|false
    }
  */
 import Vue, { PropOptions } from "vue";
@@ -29,7 +30,7 @@ export default Vue.extend({
     };
   },
   methods: {
-    openItem(newsItem:any) {
+    openItem(newsItem: any) {
       if (newsItem && newsItem.url) {
         window.open(newsItem.url, newsItem.target);
       }
@@ -41,9 +42,10 @@ export default Vue.extend({
 <template>
   <div class="news-items">
     <h2 v-if="news && news.length">Upcoming Events</h2>
-    <div class="news-item" v-for="(newsItem, n) in news" :key="n" :class="{'clickable':newsItem.url!=''}" @click="openItem(newsItem)">
+    <div class="news-item" v-for="(newsItem, n) in news" :key="n" :class="{ 'clickable': newsItem.url != '' }"
+      @click="openItem(newsItem)">
       <div v-if="newsItem.thumbnailUrl" class="thumbnail">
-        <img :src="newsItem.thumbnailUrl" />
+        <img :src="newsItem.thumbnailUrl" :class="{ 'reverse': newsItem.reverse }" />
       </div>
       <div>
         <h3>{{ newsItem.title }}</h3>
@@ -57,32 +59,43 @@ export default Vue.extend({
 <style scoped>
 .news-item {
   display: block;
-  margin-bottom: 30px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+  margin-bottom: 60px;
 }
+
 .thumbnail {
   max-width: 600px;
-  height: 300px;
   overflow: hidden;
   margin-bottom: 10px;
 }
+
 .thumbnail img {
   object-fit: contain;
   object-position: top left;
   width: 100%;
-  height: 100%;
+  max-width: 400px;
 }
+
+img.reverse {
+  filter: brightness(40%);
+}
+
 .news-item h3 {
   margin: 0;
   font-weight: bold;
 }
+
 .clickable {
   cursor: pointer;
   border-left: 2px solid transparent;
 }
+
 .clickable:hover {
-  background-color:lightyellow;
+  background-color: lightyellow;
   border-left: 2px solid #aaa;
 }
+
 @media screen and (max-width: 768px) {
   .news-item {
     display: block;
