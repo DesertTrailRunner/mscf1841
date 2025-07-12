@@ -66,8 +66,8 @@ export default Vue.extend({
                 src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration"
                 style="width:300px" /></a></div>
           <div><a href="https://strangenspooky.com/" target="_blank"><img
-                src="~/assets/images/zombie/sponsors/strange-n-spooky-haunted-tours-of-cleveland-logo-with-text.webp"
-                alt="Strange & Spooky Haunted Tours" /></a></div>
+                src="~/assets/images/zombie/sponsors/strange-n-spooky-square.jpg"
+                alt="Strange & Spooky Haunted Tours" style="width:300px"  /></a></div>
         </div>
         <ImageFigure src="images/zombie/route-photos/roundhouse.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/mound.jpg" caption="" />
