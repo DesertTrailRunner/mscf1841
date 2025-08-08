@@ -66,8 +66,11 @@ export default Vue.extend({
                 src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration"
                 style="width:300px" /></a></div>
           <div><a href="https://strangenspooky.com/" target="_blank"><img
-                src="~/assets/images/zombie/sponsors/strange-n-spooky-square.jpg"
-                alt="Strange & Spooky Haunted Tours" style="width:300px"  /></a></div>
+                src="~/assets/images/zombie/sponsors/strange-n-spooky-square.jpg" alt="Strange & Spooky Haunted Tours"
+                style="width:300px" /></a></div>
+          <div><a href="https://www.beneschlaw.com/" target="_blank"><img
+                src="~/assets/images/zombie/sponsors/Benesch.svg" alt="Benesch"
+                style="width:300px" /></a></div>
         </div>
         <ImageFigure src="images/zombie/route-photos/roundhouse.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/mound.jpg" caption="" />
@@ -97,7 +100,7 @@ export default Vue.extend({
 .sponsors>div {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .sponsors img.logo {
