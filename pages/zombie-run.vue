@@ -29,6 +29,10 @@ export default Vue.extend({
         <h2>To benefit the Monroe Street Cemetery Foundation</h2>
         <h3>Sunday October 12, 2025 9:00 am</h3>
         <h4>Clark Field, Cleveland, OH 44113</h4>
+        <PrimaryButton label="Register for run or walk"
+          url="https://runsignup.com/Race/OH/Cleveland/ZombieRunandLurch" style="margin-bottom: 10px;" />
+        <PrimaryButton label="Make a donation"
+          url="https://runsignup.com/Race/Donate/OH/Cleveland/ZombieRunandLurch" />
         <p>Join us for an exciting run or walk along the Towpath Trail starting at Clark Field in Tremont. Come dressed in your best zombie apparel and run for your life! You'll be supporting an all-volunteer 501(c)(3) nonprofit organization
           that is actively working to preserve and enhance the historic cemetery grounds, plant and maintain trees,
           repair headstones, monuments and burial structures. In just the past few years, The Monroe Street Cemetery
@@ -43,8 +47,6 @@ export default Vue.extend({
           <li>Installed 21 information signs throughout the cemetery</li>
           <li>Put in about 2000 volunteer hours per year</li>
         </ul>
-        <PrimaryButton label="Register for run or walk"
-          url="https://runsignup.com/Race/OH/Cleveland/ZombieRunandLurch" />
         <p>
           Monroe Street Cemetery is the resting place for local political and business leaders, safety forces, veterans
           and many others who built Cleveland and its communities. There are more than 34,000 stories in this beautiful
