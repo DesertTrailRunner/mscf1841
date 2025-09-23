@@ -29,11 +29,12 @@ export default Vue.extend({
         <h2>To benefit the Monroe Street Cemetery Foundation</h2>
         <h3>Sunday October 12, 2025 9:00 am</h3>
         <h4>Clark Field, Cleveland, OH 44113</h4>
-        <PrimaryButton label="Register for run or walk"
-          url="https://runsignup.com/Race/OH/Cleveland/ZombieRunandLurch" style="margin-bottom: 10px;" />
-        <PrimaryButton label="Make a donation"
-          url="https://runsignup.com/Race/Donate/OH/Cleveland/ZombieRunandLurch" />
-        <p>Join us for an exciting run or walk along the Towpath Trail starting at Clark Field in Tremont. Come dressed in your best zombie apparel and run for your life! You'll be supporting an all-volunteer 501(c)(3) nonprofit organization
+        <PrimaryButton label="Register for run or walk" url="https://runsignup.com/Race/OH/Cleveland/ZombieRunandLurch"
+          style="margin-bottom: 10px;" />
+        <PrimaryButton label="Make a donation" url="https://runsignup.com/Race/Donate/OH/Cleveland/ZombieRunandLurch" />
+        <p>Join us for an exciting run or walk along the Towpath Trail starting at Clark Field in Tremont. Come dressed
+          in your best zombie apparel and run for your life! You'll be supporting an all-volunteer 501(c)(3) nonprofit
+          organization
           that is actively working to preserve and enhance the historic cemetery grounds, plant and maintain trees,
           repair headstones, monuments and burial structures. In just the past few years, The Monroe Street Cemetery
           Foundation has:</p>
@@ -70,8 +71,10 @@ export default Vue.extend({
                 src="~/assets/images/zombie/sponsors/strange-n-spooky-square.jpg" alt="Strange & Spooky Haunted Tours"
                 style="width:300px" /></a></div>
           <div><a href="https://www.beneschlaw.com/" target="_blank"><img
-                src="~/assets/images/zombie/sponsors/Benesch.svg" alt="Benesch"
-                style="width:300px" /></a></div>
+                src="~/assets/images/zombie/sponsors/Benesch.svg" alt="Benesch" style="width:300px" /></a></div>
+          <div><a href="https://www.bookhouse.beer/" target="_blank"><img
+                src="~/assets/images/zombie/sponsors/Bookhouse.png" alt="Bookhouse Brewing" style="width:200px" /></a>
+          </div>
         </div>
         <ImageFigure src="images/zombie/route-photos/roundhouse.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/mound.jpg" caption="" />
