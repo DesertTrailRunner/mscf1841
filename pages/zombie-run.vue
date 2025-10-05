@@ -76,9 +76,9 @@ export default Vue.extend({
                 src="~/assets/images/zombie/sponsors/Bookhouse.png" alt="Bookhouse Brewing" style="width:200px" /></a>
           </div>
         </div>
+        <ImageFigure src="images/zombie/jose-ramirez-way.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/roundhouse.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/mound.jpg" caption="" />
-        <ImageFigure src="images/zombie/route-photos/joe-ramirez-scoreboard.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/path-width-bridge.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/jackknife-bridge.jpg" caption="" />
         <ImageFigure src="images/zombie/route-photos/w-6-with-houses.jpg" caption="" />
