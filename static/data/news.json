@@ -1,15 +1,5 @@
 [
     {
-        "title": "Take a Hike",
-        "url": "https://www.takeahikecle.com/monroe-street-cemetery",
-        "date": "Thursdays in August and September, 6:00 pm",
-        "duration": "",
-        "summary": "",
-        "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/622a3e8f75271424243be7bd/071d62fc-6e4b-482c-8b43-5d8827ab86d1/TAH-CCM-lockup+%281%29.png?format=1500w",
-        "target": "_blank",
-        "reverse": true
-    },
-    {
         "title": "Zombie Run and Lurch",
         "url": "/zombie-run",
         "date": "October 12, 2025 9:00 am",
