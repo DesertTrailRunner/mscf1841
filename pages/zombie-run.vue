@@ -61,29 +61,30 @@ export default Vue.extend({
 
 
       </div>
-      <div>
-        <div class="sponsors">
-          <h2>Sponsors</h2>
-          <div><a href="https://midstaterestoration.com/" target="_blank"><img
-                src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration"
-                style="width:300px" /></a></div>
-          <div><a href="https://strangenspooky.com/" target="_blank"><img
-                src="~/assets/images/zombie/sponsors/strange-n-spooky-square.jpg" alt="Strange & Spooky Haunted Tours"
-                style="width:300px" /></a></div>
-          <div><a href="https://www.beneschlaw.com/" target="_blank"><img
-                src="~/assets/images/zombie/sponsors/Benesch.svg" alt="Benesch" style="width:300px" /></a></div>
-          <div><a href="https://www.bookhouse.beer/" target="_blank"><img
-                src="~/assets/images/zombie/sponsors/Bookhouse.png" alt="Bookhouse Brewing" style="width:200px" /></a>
-          </div>
+      <div class="sponsors">
+        <h2>Sponsors</h2>
+        <div><a href="https://midstaterestoration.com/" target="_blank"><img
+              src="~/assets/images/zombie/sponsors/midstate-logo1a.png" alt="Mid State Restoration"
+              style="width:300px" /></a></div>
+        <div><a href="https://strangenspooky.com/" target="_blank"><img
+              src="~/assets/images/zombie/sponsors/strange-n-spooky-square.jpg" alt="Strange & Spooky Haunted Tours"
+              style="width:300px" /></a></div>
+        <div><a href="https://www.beneschlaw.com/" target="_blank"><img
+              src="~/assets/images/zombie/sponsors/Benesch.svg" alt="Benesch" style="width:300px" /></a></div>
+        <div><a href="https://www.bookhouse.beer/" target="_blank"><img
+              src="~/assets/images/zombie/sponsors/Bookhouse.png" alt="Bookhouse Brewing" style="width:200px" /></a>
         </div>
-        <ImageFigure src="images/zombie/jose-ramirez-way.jpg" caption="" />
-        <ImageFigure src="images/zombie/route-photos/roundhouse.jpg" caption="" />
-        <ImageFigure src="images/zombie/route-photos/mound.jpg" caption="" />
-        <ImageFigure src="images/zombie/route-photos/path-width-bridge.jpg" caption="" />
-        <ImageFigure src="images/zombie/route-photos/jackknife-bridge.jpg" caption="" />
-        <ImageFigure src="images/zombie/route-photos/w-6-with-houses.jpg" caption="" />
-        <ImageFigure src="images/zombie/route-photos/train-stop.jpg" caption="" />
+        <div><a href="https://www.heinens.com" target="_blank"><img
+              src="~/assets/images/zombie/sponsors/heinens-logo.png" alt="Heinen's" style="width:200px" /></a>
+        </div>
       </div>
+      <ImageFigure src="images/zombie/jose-ramirez-way.jpg" caption="" />
+      <ImageFigure src="images/zombie/route-photos/roundhouse.jpg" caption="" />
+      <ImageFigure src="images/zombie/route-photos/mound.jpg" caption="" />
+      <ImageFigure src="images/zombie/route-photos/path-width-bridge.jpg" caption="" />
+      <ImageFigure src="images/zombie/route-photos/jackknife-bridge.jpg" caption="" />
+      <ImageFigure src="images/zombie/route-photos/w-6-with-houses.jpg" caption="" />
+      <ImageFigure src="images/zombie/route-photos/train-stop.jpg" caption="" />
     </div>
   </div>
 </template>

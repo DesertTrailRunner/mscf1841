@@ -37,7 +37,7 @@ export default Vue.extend({
         </p>
 
         <ImageFigure
-          src="images/about/cmte-at-forest-city-brewery.jpg"
+          src="images/mscf-board-2025.jpg"
           caption="Foundation Committee Monthly Meeting at Forest City Brewery"
         />
 
