@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * NewsItems
- * @date 2025-07-11
+ * @date 2025-10-13
  * Format of news items:
    {
         "title": "",
@@ -21,7 +21,7 @@ export default Vue.extend({
     url: { type: String, required: false },
   },
   async fetch() {
-    this.news = await this.$http.$get(this.url);
+    if (this.url) this.news = await this.$http.$get(this.url);
   },
   fetchOnServer: false,
   data() {
@@ -89,11 +89,12 @@ img.reverse {
 .clickable {
   cursor: pointer;
   border-left: 2px solid transparent;
+  transition: all 0.5s ease-in-out;
 }
 
 .clickable:hover {
-  background-color: lightyellow;
-  border-left: 2px solid #aaa;
+  transform: scale(1.05);
+  transform-origin: 25%;
 }
 
 @media screen and (max-width: 768px) {

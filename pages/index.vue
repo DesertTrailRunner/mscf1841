@@ -60,11 +60,21 @@ export default Vue.extend({
           <div>
             <NewsItems url="/data/news.json" />
           </div>
-          
+          <div>
+            <h2>News</h2>
+            <ImageLink caption="Zombies run through Cleveland to raise money for cemetery" src="images/media-mentions/group-of-zombies.jpg"
+              href="https://www.news5cleveland.com/news/local-news/zombies-run-through-cleveland-to-raise-money-for-cemetery#google_vignette"
+              size="medium" />
+            <ImageLink caption="Monroe Street Cemetery is a graveyard smash with multiple events celebrating Halloween"
+              src="images/media-mentions/fall-trees.webp"
+              href="https://signalcleveland.org/celebrate-halloween-at-cleveland-monroe-street-cemetery/"
+              size="medium" />
+          </div>
+
         </div>
         <div>
           <FoundationActivities />
-          
+
           <p>We have a new email: <a href="mailto:info@mscf1841.org">info@mscf1841.org</a></p>
           <!-- <h3>Recently published biographies</h3>
           <div class="biographies">
@@ -92,6 +102,7 @@ export default Vue.extend({
   width: 100%;
   display: block;
 }
+
 .article-ref p {
   margin: 0;
 }
