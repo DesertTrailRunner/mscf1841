@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * FoundationActivities
- * @date 2025-10-13
+ * @date 2025-10-30
  */
 import Vue, { PropOptions } from "vue";
 
@@ -12,6 +12,8 @@ export default Vue.extend({});
   <div>
     <h3>Foundation Activities in 2025</h3>
     <ol>
+      <li><a href="https://www.instagram.com/p/DQcL_8YjTRD/?img_index=1" target="_blank">Trick-or-Treating in the Cemetery as part
+          of Cleveland History Days</a></li>
       <li><a href="https://www.instagram.com/p/DPwvqZ5kr36/?img_index=1" target="_blank">Zombie Run and Lurch</a></li>
       <li><a href="https://www.instagram.com/p/DPZxSCPjT8E/" target="_blank">Coffee &amp; Coffins Classic Hearse
           Cruise-in</a></li>
