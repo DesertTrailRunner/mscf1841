@@ -5,5 +5,5 @@ copy-item -path redirects/membership -destination ~/web/mscf/firebase-deploy/dis
 Write-Host "Deploy to Firebase..."
 cd ../firebase-deploy
 firebase deploy
-cd ../nuxtjs2-static
+cd ../source
 Write-Host "...Site has been deployed."

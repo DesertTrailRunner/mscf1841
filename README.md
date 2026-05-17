@@ -21,7 +21,14 @@ $ npm run generate
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 
-## Deploying to production
+## Firebase deployment
+After building the project and generating the static files, copy the contents of the dist/ folder to a folder set up for Firebase. Then, run the following from that deployment folder:
+```
+firebase deploy
+```
+
+## Powershell scripts
+These two scripts perform the build/generate and firebase deployment steps.
 The build script will build and generate the static HTML.
 The deploy script will copy it to the firebase-deploy directory and then deploy it to firebase
 ```
@@ -29,9 +36,7 @@ The deploy script will copy it to the firebase-deploy directory and then deploy 
 ./deploy
 ```
 
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## Directories used by NuxtJS
 
 ### `assets`
 
