@@ -48,15 +48,18 @@ export default Vue.extend({
         <div><span>Alan Fodor</span><span>Treasurer, Co-Founder, Board Member</span></div>
         <div><span>Sean Koltiska</span><span>Secretary, Board Member</span></div>
         <div><span>Hayden Bish</span><span>Board Member</span></div>
+        <div><span>Samantha Bosworth</span><span>Board Member</span></div>
         <div><span>Ethan Clark</span><span>Board Member</span></div>
         <div><span>Lesa Hess</span><span>Co-Founder, Board Member</span></div>
-        <div><span>Ben Hoffmann</span><span>Board Member</span></div>
         <div><span>George Hruby</span><span>Board Member</span></div>
+        <div><span>Amy Kling</span><span>Board Member</span></div>
         <div><span>William Krejci</span><span>Board Member</span></div>
-        <div><span>Glen Zdolshek</span><span>Board Member</span></div>
+        <div><span>Aleece Roach</span><span>Board Member</span></div>
         <div><span>Guy Savastano</span><span>Board Member</span></div>
-        <div><span>Adam Saurwein</span><span>President Emeritus</span></div>
+        <div><span>Ann Socha</span><span>Board Member</span></div>
+        <div><span>Glen Zdolshek</span><span>Board Member</span></div>
         <div><span>Homer Taft</span><span>President Emeritus</span></div>
+        <div><span>Adam Saurwein</span><span>President Emeritus</span></div>
         </div>
       </div>
 
