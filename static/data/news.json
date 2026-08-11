@@ -1,3 +1,19 @@
 [
-
+    {
+        "title": "Coffee and Coffins Hearse Cruise-in",
+        "date": "October 4",
+        "thumbnailUrl": "/images/news/Coffee-Coffins.webp"
+    },
+    {
+        "title": "Zombie Run 5k and Lurch",
+        "url": "https://www.runtheland.com/calendar/zombie-run-and-lurch",
+        "target": "_blank",
+        "date": "October 11 8am",
+        "thumbnailUrl": "/images/news/Zombie-run_medium.png"
+    },
+    {
+        "title": "Trick-or-Treat",
+        "date": "October 25",
+        "thumbnailUrl": "/images/news/trick-or-treat.png"
+    }
 ]

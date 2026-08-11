@@ -1,7 +1,7 @@
 <script lang='ts'>
 /**
  * FoundationActivities
- * @date 2025-10-30
+ * @date 2026-08-11
  */
 import Vue, { PropOptions } from "vue";
 
@@ -10,6 +10,15 @@ export default Vue.extend({});
 
 <template>
   <div>
+    <h3>Foundation Activities in 2026</h3>
+    <ol>
+      <li><a href="https://www.instagram.com/p/DXVARlQFTMn/" target="_blank">Spring into Action</a></li>
+      <li><a href="https://www.instagram.com/p/DWuLjsXmJOA/" target="_blank">Regrow Monroe</a></li>
+      <li><a href="https://www.instagram.com/p/DY7lhUilHvK/?img_index=1" target="_blank">Monument resetting</a></li>
+      <li><a href="https://www.instagram.com/p/DZGXIENjwI-/" target="_blank">Cleveland History Days: Voices from the Past</a></li>
+      <li><a href="https://www.instagram.com/p/DaoCU2ClDCw/" target="_blank">Take a Hike walking tours</a></li>
+      <li><a href="https://www.instagram.com/p/DaqqI6vFJoc/" target="_blank">Garden Walk Checkpoint</a></li>      
+    </ol>
     <h3>Foundation Activities in 2025</h3>
     <ol>
       <li><a href="https://www.instagram.com/p/DQcL_8YjTRD/?img_index=1" target="_blank">Trick-or-Treating in the Cemetery as part
