@@ -43,19 +43,19 @@ export default Vue.extend({
 
         <div class="board-members">
           <h3>Board of Directors</h3>
-        <div><span>Toni Morgan</span><span>President, Board Member</span></div>
+        <div><span>Sean Koltiska</span><span>President, Board Member</span></div>
         <div><span>Lesley Patterson</span><span>Vice-President, Board Member</span></div>
+        <div><span>Samantha Bosworth</span><span>Secretary, Board Member</span></div>
         <div><span>Alan Fodor</span><span>Treasurer, Co-Founder, Board Member</span></div>
-        <div><span>Sean Koltiska</span><span>Secretary, Board Member</span></div>
         <div><span>Hayden Bish</span><span>Board Member</span></div>
-        <div><span>Samantha Bosworth</span><span>Board Member</span></div>
-        <div><span>Ethan Clark</span><span>Board Member</span></div>
         <div><span>Lesa Hess</span><span>Co-Founder, Board Member</span></div>
-        <div><span>George Hruby</span><span>Board Member</span></div>
+        <div><span>Tom Kaschalk</span><span>Board Member</span></div>
         <div><span>Amy Kling</span><span>Board Member</span></div>
-        <div><span>William Krejci</span><span>Board Member</span></div>
+        <div><span>Bill Krejci</span><span>President Emeritus, Board Member</span></div>
+        <div><span>Toni Morgan</span><span>President Emeritus, Board Member</span></div>
         <div><span>Aleece Roach</span><span>Board Member</span></div>
         <div><span>Guy Savastano</span><span>Board Member</span></div>
+        <div><span>Brian Shell</span><span>Board Member</span></div>
         <div><span>Ann Socha</span><span>Board Member</span></div>
         <div><span>Glen Zdolshek</span><span>Board Member</span></div>
         <div><span>Homer Taft</span><span>President Emeritus</span></div>
